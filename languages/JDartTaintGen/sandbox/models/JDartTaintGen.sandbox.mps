@@ -29,6 +29,7 @@
       </concept>
       <concept id="1701909078719250738" name="JDartTaintGen.structure.WildcardedMethod" flags="ng" index="EzahS">
         <property id="1701909078719361052" name="method" index="Eyxlm" />
+        <property id="1701909078719459256" name="useConstructor" index="EySFM" />
       </concept>
       <concept id="1701909078719250739" name="JDartTaintGen.structure.WildcardedParams" flags="ng" index="EzahT">
         <property id="1701909078719367106" name="params" index="EyIa8" />
@@ -73,7 +74,7 @@
             <property role="Ezu5L" value="org.springframework.jdbc.core.JdbcTemplate" />
           </node>
           <node concept="EzahS" id="1uupkCX5uz7" role="Ezagp">
-            <property role="Ezu8O" value="true" />
+            <property role="EySFM" value="true" />
           </node>
           <node concept="EzahT" id="1uupkCX5uzj" role="Ezags">
             <property role="EyIa8" value="sql" />
