@@ -168,7 +168,7 @@
   </node>
   <node concept="2S6QgY" id="1uupkCX4Y3F">
     <property role="TrG5h" value="TogglePostWildcard" />
-    <ref role="2ZfgGC" to="y4i8:1uupkCX4G4L" resolve="WildcardedClass" />
+    <ref role="2ZfgGC" to="y4i8:1uupkCX4G4K" resolve="WildcardedElement" />
     <node concept="2S6ZIM" id="1uupkCX4Y3G" role="2ZfVej">
       <node concept="3clFbS" id="1uupkCX4Y3H" role="2VODD2">
         <node concept="3clFbF" id="1uupkCX4YlJ" role="3cqZAp">
@@ -177,7 +177,7 @@
               <property role="Xl_RC" value="Use Post Wildcard" />
             </node>
             <node concept="Xl_RD" id="1uupkCX4Zki" role="3K4GZi">
-              <property role="Xl_RC" value="Use Pre Wildcard" />
+              <property role="Xl_RC" value="Remove Post Wildcard" />
             </node>
             <node concept="3fqX7Q" id="1uupkCX4Zuk" role="3K4Cdx">
               <node concept="2OqwBi" id="1uupkCX4Zum" role="3fr31v">
