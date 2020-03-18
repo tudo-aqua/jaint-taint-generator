@@ -86,6 +86,7 @@
         <property role="3F0ifm" value="SANI::" />
       </node>
       <node concept="3F1sOY" id="1uupkCX4G5d" role="3EZMnx">
+        <property role="1$x2rV" value="none" />
         <ref role="1NtTu8" to="y4i8:1uupkCX4G4O" resolve="sanitizations" />
       </node>
       <node concept="l2Vlx" id="1uupkCX4G53" role="2iSdaV" />
@@ -169,12 +170,14 @@
     <ref role="1XX52x" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
     <node concept="3EZMnI" id="1uupkCX4Sg8" role="2wV5jI">
       <node concept="3F1sOY" id="1uupkCX4Sgl" role="3EZMnx">
+        <property role="1$x2rV" value="No Source" />
         <ref role="1NtTu8" to="y4i8:1uupkCX4SfP" resolve="source" />
         <node concept="ljvvj" id="1uupkCX4Sgp" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F1sOY" id="1uupkCX4Sgv" role="3EZMnx">
+        <property role="1$x2rV" value="No Sanitization" />
         <ref role="1NtTu8" to="y4i8:1uupkCX4SfR" resolve="sanitization" />
         <node concept="ljvvj" id="1uupkCX4SgG" role="3F10Kt">
           <property role="VOm3f" value="true" />
