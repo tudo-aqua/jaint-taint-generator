@@ -6,6 +6,11 @@
   </languages>
   <imports />
   <registry>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
     <language id="d29ed155-5a69-438b-817d-70e96ceef79e" name="JDartTaintGen">
       <concept id="1701909078719250730" name="JDartTaintGen.structure.Signatures" flags="ng" index="Ezahw">
         <child id="1701909078719250932" name="signatures" index="EzaiY" />
@@ -44,6 +49,7 @@
     </language>
   </registry>
   <node concept="EzahB" id="1uupkCX5tgL">
+    <property role="TrG5h" value="Test" />
     <node concept="Ezahx" id="1uupkCX5tgM" role="EzuqK">
       <property role="Ezatv" value="sqli" />
       <node concept="Ezahw" id="1uupkCX5tgN" role="Ezat5">
@@ -98,6 +104,7 @@
     </node>
   </node>
   <node concept="EzahB" id="1k6INitHpjv">
+    <property role="TrG5h" value="WeakRandomness" />
     <node concept="Ezahx" id="1k6INitHpjw" role="EzuqK">
       <property role="Ezatv" value="wr" />
       <node concept="Ezahw" id="1k6INitHpjx" role="Ezat5">
