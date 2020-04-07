@@ -210,5 +210,18 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1X9JY0PMkkd">
+    <property role="EcuMT" value="2254544058171606285" />
+    <property role="TrG5h" value="TaintGen" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1X9JY0PMkke" role="1TKVEi">
+      <property role="IQ2ns" value="2254544058171606286" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="taints" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1uupkCX4G4H" resolve="TaintAnalysis" />
+    </node>
+  </node>
 </model>
 

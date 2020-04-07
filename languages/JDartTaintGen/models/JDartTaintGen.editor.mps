@@ -13,11 +13,15 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1156252885376" name="separatorLayoutConstraint" index="Q2I2d" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="709996738298806197" name="jetbrains.mps.lang.editor.structure.QueryFunction_SeparatorText" flags="in" index="2o9xnK" />
+      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -61,6 +65,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -454,6 +461,32 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1uupkCX58vh" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1X9JY0PMkko">
+    <ref role="1XX52x" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
+    <node concept="3EZMnI" id="1X9JY0PMkkq" role="2wV5jI">
+      <node concept="3F2HdR" id="1X9JY0PMkkx" role="3EZMnx">
+        <property role="Q2I2d" value="g$1Qtxb/punctuation" />
+        <ref role="1NtTu8" to="y4i8:1X9JY0PMkke" resolve="taints" />
+        <node concept="l2Vlx" id="1X9JY0PMkkz" role="2czzBx" />
+        <node concept="ljvvj" id="1X9JY0PMkkA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="1X9JY0PMkkC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="2o9xnK" id="1X9JY0PMkkF" role="2gpyvW">
+          <node concept="3clFbS" id="1X9JY0PMkkG" role="2VODD2">
+            <node concept="3clFbF" id="1X9JY0PMlRJ" role="3cqZAp">
+              <node concept="Xl_RD" id="1X9JY0PMlRI" role="3clFbG">
+                <property role="Xl_RC" value="---------------------------------------" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1X9JY0PMkkt" role="2iSdaV" />
     </node>
   </node>
 </model>
