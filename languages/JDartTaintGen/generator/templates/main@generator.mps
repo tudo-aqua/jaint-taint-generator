@@ -14,6 +14,7 @@
     <import index="lqde" ref="f669ac5d-3b85-45be-a0ac-ccc440208724/java:gov.nasa.jpf.jdart.taint(JDartTaintGen.lib/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="brp9" ref="f669ac5d-3b85-45be-a0ac-ccc440208724/java:gov.nasa.jpf.util(JDartTaintGen.lib/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -239,11 +240,11 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="1k6KDPnJ0fU" role="3lj3bC">
       <ref role="30HIoZ" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
-      <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TaintInjector" />
+      <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TestTaintInjector" />
     </node>
   </node>
   <node concept="312cEu" id="1k6KDPnJ0fi">
-    <property role="TrG5h" value="TaintInjector" />
+    <property role="TrG5h" value="TestTaintInjector" />
     <node concept="2tJIrI" id="1k6KDPnJ0g9" role="jymVt" />
     <node concept="3Tm1VV" id="1k6KDPnJ0fj" role="1B3o_S" />
     <node concept="n94m4" id="1k6KDPnJ0fk" role="lGtFl">
@@ -2461,6 +2462,27 @@
                   </node>
                 </node>
                 <node concept="3x8VRR" id="1k6INitHe5Y" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17Uvod" id="7$piD0GveqE" role="lGtFl">
+        <property role="2qtEX9" value="name" />
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <node concept="3zFVjK" id="7$piD0GveqF" role="3zH0cK">
+          <node concept="3clFbS" id="7$piD0GveqG" role="2VODD2">
+            <node concept="3clFbF" id="7$piD0GvhOR" role="3cqZAp">
+              <node concept="3cpWs3" id="7$piD0GvidT" role="3clFbG">
+                <node concept="2OqwBi" id="7$piD0Gvivu" role="3uHU7w">
+                  <node concept="30H73N" id="7$piD0GvieL" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7$piD0GviGp" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7$piD0GvhOQ" role="3uHU7B">
+                  <property role="Xl_RC" value="checkTaintContainerFor" />
+                </node>
               </node>
             </node>
           </node>
@@ -5211,6 +5233,27 @@
     </node>
     <node concept="3uibUv" id="1k6INitGBRH" role="1zkMxy">
       <ref role="3uigEE" to="lqde:~TaintChecker" resolve="TaintChecker" />
+    </node>
+    <node concept="17Uvod" id="7$piD0GuUOP" role="lGtFl">
+      <property role="2qtEX9" value="name" />
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <node concept="3zFVjK" id="7$piD0GuUOS" role="3zH0cK">
+        <node concept="3clFbS" id="7$piD0GuUOT" role="2VODD2">
+          <node concept="3clFbF" id="7$piD0GuUOZ" role="3cqZAp">
+            <node concept="3cpWs3" id="7$piD0GuYz0" role="3clFbG">
+              <node concept="Xl_RD" id="7$piD0GuY$_" role="3uHU7w">
+                <property role="Xl_RC" value="TaintInjector" />
+              </node>
+              <node concept="2OqwBi" id="7$piD0GuUOU" role="3uHU7B">
+                <node concept="3TrcHB" id="7$piD0GuUOX" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+                <node concept="30H73N" id="7$piD0GuUOY" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

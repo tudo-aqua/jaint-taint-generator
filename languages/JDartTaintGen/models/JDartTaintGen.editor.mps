@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="y4i8" ref="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -191,6 +192,18 @@
   <node concept="24kQdi" id="1uupkCX4Sg6">
     <ref role="1XX52x" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
     <node concept="3EZMnI" id="1uupkCX4Sg8" role="2wV5jI">
+      <node concept="3F0A7n" id="7$piD0GuxPH" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7$piD0GuxQq" role="3EZMnx">
+        <property role="3F0ifm" value="TaintInjector" />
+        <node concept="ljvvj" id="7$piD0GuxQz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11L4FC" id="7$piD0GuxQC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F1sOY" id="1uupkCX4Sgl" role="3EZMnx">
         <property role="1$x2rV" value="No Source" />
         <ref role="1NtTu8" to="y4i8:1uupkCX4SfP" resolve="source" />
