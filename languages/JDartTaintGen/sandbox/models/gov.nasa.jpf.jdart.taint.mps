@@ -19,7 +19,7 @@
         <child id="1701909078719250932" name="signatures" index="EzaiY" />
       </concept>
       <concept id="1701909078719250731" name="JDartTaintGen.structure.Sink" flags="ng" index="Ezahx">
-        <property id="1701909078719250965" name="variable" index="Ezatv" />
+        <property id="1961901437117924184" name="variable" index="1Sx16I" />
         <child id="1701909078719250959" name="sinks" index="Ezat5" />
       </concept>
       <concept id="1701909078719250728" name="JDartTaintGen.structure.Sanitization" flags="ng" index="Ezahy">
@@ -31,7 +31,6 @@
         <child id="1701909078719250774" name="params" index="Ezags" />
       </concept>
       <concept id="1701909078719250732" name="JDartTaintGen.structure.Source" flags="ng" index="EzahA">
-        <property id="1701909078719300542" name="variable" index="EzurO" />
         <child id="1701909078719300548" name="signatures" index="Ezuqe" />
       </concept>
       <concept id="1701909078719250733" name="JDartTaintGen.structure.TaintAnalysis" flags="ng" index="EzahB">
@@ -53,170 +52,117 @@
       </concept>
     </language>
   </registry>
-  <node concept="EzahB" id="7$piD0GvFVz">
-    <property role="TrG5h" value="WeakRandomness" />
-    <node concept="Ezahx" id="7$piD0GvFV$" role="EzuqK">
-      <property role="Ezatv" value="wr" />
-      <node concept="Ezahw" id="7$piD0GvFV_" role="Ezat5">
-        <node concept="Ezahz" id="7$piD0GvFVA" role="EzaiY">
-          <node concept="EzahV" id="7$piD0GvFVB" role="Ezagr">
-            <property role="Ezu5L" value="javax.servlet.http.Cookie" />
-          </node>
-          <node concept="EzahS" id="7$piD0GvFVC" role="Ezagp">
-            <property role="EySFM" value="true" />
-          </node>
-          <node concept="EzahT" id="7$piD0GvFWb" role="Ezags">
-            <property role="Ezu8O" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="EzahA" id="7$piD0GvFVD" role="EzuqZ">
-      <property role="EzurO" value="wr" />
-      <node concept="Ezahw" id="7$piD0GvFVE" role="Ezuqe">
-        <node concept="Ezahz" id="7$piD0GvFVF" role="EzaiY">
-          <node concept="EzahV" id="7$piD0GvFVG" role="Ezagr">
-            <property role="Ezu5L" value="java.lang.Math" />
-          </node>
-          <node concept="EzahS" id="7$piD0GvFVH" role="Ezagp">
-            <property role="Eyxlm" value="random" />
-          </node>
-        </node>
-        <node concept="Ezahz" id="7$piD0GvFVN" role="EzaiY">
-          <node concept="EzahV" id="7$piD0GvFVO" role="Ezagr">
-            <property role="Ezu5L" value="java.util.Random" />
-          </node>
-          <node concept="EzahS" id="7$piD0GvFVP" role="Ezagp">
-            <property role="Ezu8O" value="true" />
-          </node>
-          <node concept="EzahT" id="7$piD0GvFVW" role="Ezags">
-            <property role="Ezu8O" value="true" />
-          </node>
-        </node>
-        <node concept="Ezahz" id="7$piD0GvFVY" role="EzaiY">
-          <node concept="EzahV" id="7$piD0GvFVZ" role="Ezagr">
-            <property role="Ezu5L" value="java.util.Random" />
-          </node>
-          <node concept="EzahS" id="7$piD0GvFW0" role="Ezagp">
-            <property role="Ezu8O" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="EwfFH" id="1X9JY0PMVA8">
-    <node concept="EzahB" id="1X9JY0PMVA9" role="EwfFI">
+    <node concept="EzahB" id="1GU4JpzJB3t" role="EwfFI">
       <property role="TrG5h" value="WeakRandomness" />
-      <node concept="Ezahx" id="1X9JY0PMVAa" role="EzuqK">
-        <property role="Ezatv" value="wr" />
-        <node concept="Ezahw" id="1X9JY0PMVAb" role="Ezat5">
-          <node concept="Ezahz" id="1X9JY0PMVAc" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PMVAd" role="Ezagr">
+      <node concept="Ezahx" id="1GU4JpzJB3u" role="EzuqK">
+        <property role="1Sx16I" value="wr" />
+        <node concept="Ezahw" id="1GU4JpzJB3v" role="Ezat5">
+          <node concept="Ezahz" id="1GU4JpzJB3w" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJB3x" role="Ezagr">
               <property role="Ezu5L" value="javax.servlet.http.Cookie" />
             </node>
-            <node concept="EzahS" id="1X9JY0PMVAe" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJB3y" role="Ezagp">
               <property role="EySFM" value="true" />
             </node>
-            <node concept="EzahT" id="1X9JY0PMVAZ" role="Ezags">
+            <node concept="EzahT" id="1GU4JpzJB4$" role="Ezags">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="EzahA" id="1X9JY0PN86y" role="EzuqZ">
-        <property role="EzurO" value="wr" />
-        <node concept="Ezahw" id="1X9JY0PN86z" role="Ezuqe">
-          <node concept="Ezahz" id="1X9JY0PN86$" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN86_" role="Ezagr">
+      <node concept="EzahA" id="1GU4JpzJB43" role="EzuqZ">
+        <node concept="Ezahw" id="1GU4JpzJB44" role="Ezuqe">
+          <node concept="Ezahz" id="1GU4JpzJvDJ" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJvDK" role="Ezagr">
               <property role="Ezu5L" value="java.lang.Math" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN86A" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJvDL" role="Ezagp">
               <property role="Eyxlm" value="random" />
             </node>
           </node>
-          <node concept="Ezahz" id="1X9JY0PN86G" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN86H" role="Ezagr">
+          <node concept="Ezahz" id="1GU4JpzJvE3" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJvE4" role="Ezagr">
               <property role="Ezu5L" value="java.util.Random" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN86I" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJvE5" role="Ezagp">
               <property role="Ezu8O" value="true" />
             </node>
-            <node concept="EzahT" id="1X9JY0PN86P" role="Ezags">
+            <node concept="EzahT" id="1GU4JpzJvEo" role="Ezags">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
-          <node concept="Ezahz" id="1X9JY0PN86R" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN86S" role="Ezagr">
+          <node concept="Ezahz" id="1GU4JpzJvEc" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJvEd" role="Ezagr">
               <property role="Ezu5L" value="java.util.Random" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN86T" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJvEe" role="Ezagp">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="EzahB" id="1X9JY0PMVAE" role="EwfFI">
-      <property role="TrG5h" value="CrossSideScripting" />
-      <node concept="Ezahx" id="1X9JY0PMVAF" role="EzuqK">
-        <property role="Ezatv" value="xss" />
-        <node concept="Ezahw" id="1X9JY0PMVAG" role="Ezat5">
-          <node concept="Ezahz" id="1X9JY0PMVAH" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PMVAI" role="Ezagr">
+    <node concept="EzahB" id="1GU4JpzJB4T" role="EwfFI">
+      <property role="TrG5h" value="CrossSiteScripting" />
+      <node concept="Ezahx" id="1GU4JpzJB4U" role="EzuqK">
+        <property role="1Sx16I" value="xss" />
+        <node concept="Ezahw" id="1GU4JpzJB4V" role="Ezat5">
+          <node concept="Ezahz" id="1GU4JpzJB4W" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJB4X" role="Ezagr">
               <property role="Ezu5L" value="javax.servlet.http.HttpServletResponse" />
             </node>
-            <node concept="EzahS" id="1X9JY0PMVAJ" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJB4Y" role="Ezagp">
               <property role="Eyxlm" value="getWriter" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="EzahA" id="1X9JY0PN874" role="EzuqZ">
-        <property role="EzurO" value="xss" />
-        <node concept="Ezahw" id="1X9JY0PN875" role="Ezuqe">
-          <node concept="Ezahz" id="1X9JY0PN876" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN877" role="Ezagr">
+      <node concept="EzahA" id="1GU4JpzJB5o" role="EzuqZ">
+        <node concept="Ezahw" id="1GU4JpzJB5p" role="Ezuqe">
+          <node concept="Ezahz" id="1GU4JpzJB5q" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJB5r" role="Ezagr">
               <property role="Ezu5L" value="HttpServletRequest" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN878" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJB5s" role="Ezagp">
               <property role="Eyxlm" value="get" />
               <property role="Ezu8L" value="true" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="Ezahy" id="1X9JY0PN87e" role="EzuqX">
-        <node concept="Ezahw" id="1X9JY0PN87g" role="EzahY">
-          <node concept="Ezahz" id="1X9JY0PN87h" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN87i" role="Ezagr">
+      <node concept="Ezahy" id="1GU4JpzJB5O" role="EzuqX">
+        <node concept="Ezahw" id="1GU4JpzJB5Q" role="EzahY">
+          <node concept="Ezahz" id="1GU4JpzJwaa" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJwab" role="Ezagr">
               <property role="Ezu5L" value="org.apache.commons.lang.StringEscapeUtils" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN87j" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJwac" role="Ezagp">
               <property role="Eyxlm" value="escapeHtml" />
             </node>
-            <node concept="EzahT" id="1X9JY0PN87o" role="Ezags">
+            <node concept="EzahT" id="1GU4JpzJwah" role="Ezags">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
-          <node concept="Ezahz" id="1X9JY0PN87q" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN87r" role="Ezagr">
+          <node concept="Ezahz" id="1GU4JpzJwaj" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJwak" role="Ezagr">
               <property role="Ezu5L" value="org.owasp.esapi.ESAPI" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN87s" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJwal" role="Ezagp">
               <property role="Eyxlm" value="encodeForHTML" />
             </node>
-            <node concept="EzahT" id="1X9JY0PN87$" role="Ezags">
+            <node concept="EzahT" id="1GU4JpzJwat" role="Ezags">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
-          <node concept="Ezahz" id="1X9JY0PN87A" role="EzaiY">
-            <node concept="EzahV" id="1X9JY0PN87B" role="Ezagr">
+          <node concept="Ezahz" id="1GU4JpzJwav" role="EzaiY">
+            <node concept="EzahV" id="1GU4JpzJwaw" role="Ezagr">
               <property role="Ezu5L" value="org.springframework.web.util.HtmlUtils" />
             </node>
-            <node concept="EzahS" id="1X9JY0PN87C" role="Ezagp">
+            <node concept="EzahS" id="1GU4JpzJwax" role="Ezagp">
               <property role="Eyxlm" value="htmlEscape" />
             </node>
-            <node concept="EzahT" id="1X9JY0PN87O" role="Ezags">
+            <node concept="EzahT" id="1GU4JpzJwb9" role="Ezags">
               <property role="Ezu8O" value="true" />
             </node>
           </node>
