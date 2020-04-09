@@ -261,8 +261,8 @@
   <node concept="bUwia" id="1uupkCX4G4z">
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="1k6KDPnJ0fU" role="3lj3bC">
-      <ref role="30HIoZ" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
       <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TaintInjector" />
+      <ref role="30HIoZ" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
     </node>
     <node concept="3lhOvk" id="YL1ThokJPE" role="3lj3bC">
       <ref role="30HIoZ" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
@@ -278,7 +278,7 @@
     <node concept="2tJIrI" id="1k6KDPnJ0g9" role="jymVt" />
     <node concept="3Tm1VV" id="1k6KDPnJ0fj" role="1B3o_S" />
     <node concept="n94m4" id="1k6KDPnJ0fk" role="lGtFl">
-      <ref role="n9lRv" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
+      <ref role="n9lRv" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
     </node>
     <node concept="3uibUv" id="1k6KDPnJ0gG" role="EKbjA">
       <ref role="3uigEE" to="rlgy:~VMListener" resolve="VMListener" />
@@ -2476,7 +2476,7 @@
       </node>
       <node concept="37vLTG" id="1k6INitGlDC" role="3clF46">
         <property role="TrG5h" value="container" />
-        <node concept="3uibUv" id="YL1ThooyFz" role="1tU5fm">
+        <node concept="3uibUv" id="YL1ThopGPV" role="1tU5fm">
           <ref role="3uigEE" node="YL1Thok$RL" resolve="TaintContainer" />
         </node>
       </node>
@@ -5280,6 +5280,20 @@
                 </node>
                 <node concept="30H73N" id="7$piD0GuUOY" role="2Oq$k0" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1WS0z7" id="YL1ThopWFO" role="lGtFl">
+      <node concept="3JmXsc" id="YL1ThopWFR" role="3Jn$fo">
+        <node concept="3clFbS" id="YL1ThopWFS" role="2VODD2">
+          <node concept="3clFbF" id="YL1ThopWFY" role="3cqZAp">
+            <node concept="2OqwBi" id="YL1ThopWFT" role="3clFbG">
+              <node concept="3Tsc0h" id="YL1Thoq3Gu" role="2OqNvi">
+                <ref role="3TtcxE" to="y4i8:1X9JY0PMkke" resolve="taints" />
+              </node>
+              <node concept="30H73N" id="YL1ThopWFX" role="2Oq$k0" />
             </node>
           </node>
         </node>

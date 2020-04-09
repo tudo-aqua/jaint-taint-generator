@@ -42,7 +42,9 @@
         <property id="1701909078719361052" name="method" index="Eyxlm" />
         <property id="1701909078719459256" name="useConstructor" index="EySFM" />
       </concept>
-      <concept id="1701909078719250739" name="JDartTaintGen.structure.WildcardedParams" flags="ng" index="EzahT" />
+      <concept id="1701909078719250739" name="JDartTaintGen.structure.WildcardedParams" flags="ng" index="EzahT">
+        <property id="1701909078719367106" name="params" index="EyIa8" />
+      </concept>
       <concept id="1701909078719250736" name="JDartTaintGen.structure.WildcardedElement" flags="ng" index="EzahU">
         <property id="1701909078719301499" name="usePostWildcard" index="Ezu8L" />
         <property id="1701909078719301502" name="useGeneralWildcard" index="Ezu8O" />
@@ -164,6 +166,60 @@
             </node>
             <node concept="EzahT" id="1GU4JpzJwb9" role="Ezags">
               <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="YL1ThoqtV6" role="EwfFI">
+      <property role="TrG5h" value="SQLInjection" />
+      <node concept="Ezahx" id="YL1ThoqtV7" role="EzuqK">
+        <property role="1Sx16I" value="sqli" />
+        <node concept="Ezahw" id="YL1ThoqtV8" role="Ezat5">
+          <node concept="Ezahz" id="YL1ThoqtV9" role="EzaiY">
+            <node concept="EzahV" id="YL1ThoqtVa" role="Ezagr">
+              <property role="Ezu5L" value="java.sql.Statement" />
+            </node>
+            <node concept="EzahS" id="YL1ThoqtVb" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="YL1Thoqu0L" role="Ezags">
+              <property role="EyIa8" value="sql" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="YL1Thoqu0C" role="EzaiY">
+            <node concept="EzahV" id="YL1Thoqu0D" role="Ezagr">
+              <property role="Ezu5L" value="java.sql.Connection" />
+            </node>
+            <node concept="EzahS" id="YL1Thoqu0E" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="YL1Thoqu0N" role="Ezags">
+              <property role="EyIa8" value="sql" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="YL1Thoqu1b" role="EzaiY">
+            <node concept="EzahV" id="YL1Thoqu1c" role="Ezagr">
+              <property role="Ezu5L" value="org.springframework.jdbc.core.JdbcTemplate" />
+            </node>
+            <node concept="EzahS" id="YL1Thoqu1d" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="YL1Thoqu1p" role="Ezags">
+              <property role="EyIa8" value="sql" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="EzahA" id="YL1ThoqtVY" role="EzuqZ">
+        <node concept="Ezahw" id="YL1ThoqtVZ" role="Ezuqe">
+          <node concept="Ezahz" id="YL1ThoqtW0" role="EzaiY">
+            <node concept="EzahV" id="YL1ThoqtW1" role="Ezagr">
+              <property role="Ezu5L" value="HttpServletRequest" />
+            </node>
+            <node concept="EzahS" id="YL1ThoqtW2" role="Ezagp">
+              <property role="Eyxlm" value="get" />
+              <property role="Ezu8L" value="true" />
             </node>
           </node>
         </node>
