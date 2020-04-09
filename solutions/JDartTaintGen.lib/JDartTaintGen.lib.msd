@@ -7,6 +7,7 @@
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="jpf-jdart.jar" />
       <sourceRoot location="jpf.jar" />
+      <sourceRoot location="jconstraints-0.9.2-SNAPSHOT.jar" />
     </modelRoot>
   </models>
   <facets>
