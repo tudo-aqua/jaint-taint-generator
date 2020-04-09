@@ -50,9 +50,13 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -70,6 +74,7 @@
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
+      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
@@ -108,10 +113,14 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -132,7 +141,9 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <property id="2791683072064593257" name="packageName" index="2HnT6v" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
@@ -241,6 +252,10 @@
     <node concept="3lhOvk" id="1k6KDPnJ0fU" role="3lj3bC">
       <ref role="30HIoZ" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
       <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TestTaintInjector" />
+    </node>
+    <node concept="3lhOvk" id="YL1ThokJPE" role="3lj3bC">
+      <ref role="30HIoZ" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
+      <ref role="3lhOvi" node="YL1Thok$RL" resolve="TaintContainer" />
     </node>
   </node>
   <node concept="312cEu" id="1k6KDPnJ0fi">
@@ -5254,6 +5269,131 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="YL1Thok$RL">
+    <property role="TrG5h" value="TaintContainer" />
+    <property role="2HnT6v" value="gov.nasa.jpf.jdart.security" />
+    <node concept="312cEg" id="YL1TholpaQ" role="jymVt">
+      <property role="TrG5h" value="isTaint" />
+      <node concept="3Tm1VV" id="YL1Tholp9P" role="1B3o_S" />
+      <node concept="10P_77" id="YL1Tholpaf" role="1tU5fm" />
+      <node concept="3clFbT" id="YL1Tholpbx" role="33vP2m" />
+      <node concept="1WS0z7" id="YL1Tholpci" role="lGtFl">
+        <node concept="3JmXsc" id="YL1Tholpcl" role="3Jn$fo">
+          <node concept="3clFbS" id="YL1Tholpcm" role="2VODD2">
+            <node concept="3clFbF" id="YL1Tholpcs" role="3cqZAp">
+              <node concept="2OqwBi" id="YL1Tholpcn" role="3clFbG">
+                <node concept="3Tsc0h" id="YL1Tholpcq" role="2OqNvi">
+                  <ref role="3TtcxE" to="y4i8:1X9JY0PMkke" resolve="taints" />
+                </node>
+                <node concept="30H73N" id="YL1Tholpcr" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17Uvod" id="YL1Tholppw" role="lGtFl">
+        <property role="2qtEX9" value="name" />
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <node concept="3zFVjK" id="YL1Tholppx" role="3zH0cK">
+          <node concept="3clFbS" id="YL1Tholppy" role="2VODD2">
+            <node concept="3clFbF" id="YL1TholrGX" role="3cqZAp">
+              <node concept="3cpWs3" id="YL1TholrId" role="3clFbG">
+                <node concept="2OqwBi" id="YL1Tholt0w" role="3uHU7w">
+                  <node concept="2OqwBi" id="YL1TholsxK" role="2Oq$k0">
+                    <node concept="2OqwBi" id="YL1Thols0g" role="2Oq$k0">
+                      <node concept="30H73N" id="YL1TholrIY" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="YL1TholscY" role="2OqNvi">
+                        <ref role="3Tt5mk" to="y4i8:1uupkCX4SfU" resolve="sink" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="YL1TholsFf" role="2OqNvi">
+                      <ref role="3TsBF5" to="y4i8:1GU4JpzJwdo" resolve="variable" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="YL1Thom6rJ" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="YL1TholrGW" role="3uHU7B">
+                  <property role="Xl_RC" value="is" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="YL1TholnGb" role="jymVt" />
+    <node concept="3clFbW" id="YL1TholnH7" role="jymVt">
+      <node concept="3cqZAl" id="YL1TholnH8" role="3clF45" />
+      <node concept="3clFbS" id="YL1TholnHa" role="3clF47" />
+      <node concept="3Tm1VV" id="YL1TholnG_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="YL1TholnHv" role="jymVt" />
+    <node concept="3clFb_" id="YL1TholnIL" role="jymVt">
+      <property role="TrG5h" value="copy" />
+      <node concept="3clFbS" id="YL1TholnIO" role="3clF47">
+        <node concept="3cpWs8" id="YL1TholnKb" role="3cqZAp">
+          <node concept="3cpWsn" id="YL1TholnKc" role="3cpWs9">
+            <property role="TrG5h" value="container" />
+            <node concept="3uibUv" id="YL1TholnKd" role="1tU5fm">
+              <ref role="3uigEE" node="YL1Thok$RL" resolve="TaintContainer" />
+            </node>
+            <node concept="2ShNRf" id="YL1TholnKX" role="33vP2m">
+              <node concept="1pGfFk" id="YL1Tholp6f" role="2ShVmc">
+                <ref role="37wK5l" node="YL1TholnH7" resolve="TaintContainer" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="YL1Tholtjb" role="3cqZAp">
+          <node concept="37vLTI" id="YL1Tholuge" role="3clFbG">
+            <node concept="2OqwBi" id="YL1Tholup8" role="37vLTx">
+              <node concept="Xjq3P" id="YL1TholuhJ" role="2Oq$k0" />
+              <node concept="2OwXpG" id="YL1Tholuru" role="2OqNvi">
+                <ref role="2Oxat5" node="YL1TholpaQ" resolve="isTaint" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="YL1TholtA9" role="37vLTJ">
+              <node concept="37vLTw" id="YL1Tholtj9" role="2Oq$k0">
+                <ref role="3cqZAo" node="YL1TholnKc" resolve="container" />
+              </node>
+              <node concept="2OwXpG" id="YL1TholtSH" role="2OqNvi">
+                <ref role="2Oxat5" node="YL1TholpaQ" resolve="isTaint" />
+              </node>
+            </node>
+          </node>
+          <node concept="1WS0z7" id="YL1TholTn5" role="lGtFl">
+            <node concept="3JmXsc" id="YL1TholTn8" role="3Jn$fo">
+              <node concept="3clFbS" id="YL1TholTn9" role="2VODD2">
+                <node concept="3clFbF" id="YL1TholTnf" role="3cqZAp">
+                  <node concept="2OqwBi" id="YL1TholTna" role="3clFbG">
+                    <node concept="3Tsc0h" id="YL1TholTnd" role="2OqNvi">
+                      <ref role="3TtcxE" to="y4i8:1X9JY0PMkke" resolve="taints" />
+                    </node>
+                    <node concept="30H73N" id="YL1TholTne" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="YL1Tholp7o" role="3cqZAp">
+          <node concept="37vLTw" id="YL1Tholp7P" role="3cqZAk">
+            <ref role="3cqZAo" node="YL1TholnKc" resolve="container" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="YL1TholnHZ" role="1B3o_S" />
+      <node concept="3uibUv" id="YL1TholnIB" role="3clF45">
+        <ref role="3uigEE" node="YL1Thok$RL" resolve="TaintContainer" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="YL1Thok$RM" role="1B3o_S" />
+    <node concept="n94m4" id="YL1Thok$RN" role="lGtFl">
+      <ref role="n9lRv" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
     </node>
   </node>
 </model>
