@@ -262,7 +262,7 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="1k6KDPnJ0fU" role="3lj3bC">
       <ref role="30HIoZ" to="y4i8:1uupkCX4G4H" resolve="TaintAnalysis" />
-      <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TestTaintInjector" />
+      <ref role="3lhOvi" node="1k6KDPnJ0fi" resolve="TaintInjector" />
     </node>
     <node concept="3lhOvk" id="YL1ThokJPE" role="3lj3bC">
       <ref role="30HIoZ" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
@@ -274,7 +274,7 @@
     </node>
   </node>
   <node concept="312cEu" id="1k6KDPnJ0fi">
-    <property role="TrG5h" value="TestTaintInjector" />
+    <property role="TrG5h" value="TaintInjector" />
     <node concept="2tJIrI" id="1k6KDPnJ0g9" role="jymVt" />
     <node concept="3Tm1VV" id="1k6KDPnJ0fj" role="1B3o_S" />
     <node concept="n94m4" id="1k6KDPnJ0fk" role="lGtFl">
@@ -2400,8 +2400,8 @@
               <node concept="37vLTw" id="1k6INitGoAv" role="2Oq$k0">
                 <ref role="3cqZAo" node="1k6INitGlDC" resolve="container" />
               </node>
-              <node concept="2OwXpG" id="1k6INitGoTA" role="2OqNvi">
-                <ref role="2Oxat5" to="nw80:~TaintContainer.isWeakRandom" resolve="isWeakRandom" />
+              <node concept="2OwXpG" id="YL1ThooyTK" role="2OqNvi">
+                <ref role="2Oxat5" node="YL1TholpaQ" resolve="isTaint" />
               </node>
             </node>
             <node concept="3y3z36" id="1k6INitGooV" role="3uHU7B">
@@ -2476,8 +2476,8 @@
       </node>
       <node concept="37vLTG" id="1k6INitGlDC" role="3clF46">
         <property role="TrG5h" value="container" />
-        <node concept="3uibUv" id="1k6INitGns3" role="1tU5fm">
-          <ref role="3uigEE" to="nw80:~TaintContainer" resolve="TaintContainer" />
+        <node concept="3uibUv" id="YL1ThooyFz" role="1tU5fm">
+          <ref role="3uigEE" node="YL1Thok$RL" resolve="TaintContainer" />
         </node>
       </node>
       <node concept="1W57fq" id="1k6INitHb8w" role="lGtFl">
@@ -3862,16 +3862,16 @@
                           <node concept="2OqwBi" id="3Mh5WLCfUNr" role="37vLTJ">
                             <node concept="1eOMI4" id="3Mh5WLCfUEj" role="2Oq$k0">
                               <node concept="10QFUN" id="3Mh5WLCfUEg" role="1eOMHV">
-                                <node concept="3uibUv" id="3Mh5WLCfUEl" role="10QFUM">
-                                  <ref role="3uigEE" to="nw80:~TaintedVariable" resolve="TaintedVariable" />
+                                <node concept="3uibUv" id="YL1Thoo$Qw" role="10QFUM">
+                                  <ref role="3uigEE" node="YL1ThomsOw" resolve="TaintedVariable" />
                                 </node>
                                 <node concept="37vLTw" id="3Mh5WLCfUEm" role="10QFUP">
                                   <ref role="3cqZAo" node="3Mh5WLCfXK2" resolve="resultAttribute" />
                                 </node>
                               </node>
                             </node>
-                            <node concept="2OwXpG" id="3Mh5WLCfUWX" role="2OqNvi">
-                              <ref role="2Oxat5" to="nw80:~TaintedVariable.isWeakRandom" resolve="isWeakRandom" />
+                            <node concept="2OwXpG" id="YL1Thoo_cs" role="2OqNvi">
+                              <ref role="2Oxat5" node="YL1Thoncyl" resolve="isTaint" />
                             </node>
                           </node>
                         </node>
@@ -5214,16 +5214,16 @@
                           <node concept="2OqwBi" id="7$piD0GtA4N" role="37vLTJ">
                             <node concept="1eOMI4" id="7$piD0GtA4O" role="2Oq$k0">
                               <node concept="10QFUN" id="7$piD0GtA4P" role="1eOMHV">
-                                <node concept="3uibUv" id="7$piD0GtA4Q" role="10QFUM">
-                                  <ref role="3uigEE" to="nw80:~TaintedVariable" resolve="TaintedVariable" />
+                                <node concept="3uibUv" id="YL1Thoo_zj" role="10QFUM">
+                                  <ref role="3uigEE" node="YL1ThomsOw" resolve="TaintedVariable" />
                                 </node>
                                 <node concept="37vLTw" id="7$piD0GtA4R" role="10QFUP">
                                   <ref role="3cqZAo" node="7$piD0GtA3y" resolve="resultAttribute" />
                                 </node>
                               </node>
                             </node>
-                            <node concept="2OwXpG" id="7$piD0GtA4S" role="2OqNvi">
-                              <ref role="2Oxat5" to="nw80:~TaintedVariable.isWeakRandom" resolve="isWeakRandom" />
+                            <node concept="2OwXpG" id="YL1Thoo_RP" role="2OqNvi">
+                              <ref role="2Oxat5" node="YL1Thoncyl" resolve="isTaint" />
                             </node>
                           </node>
                         </node>
