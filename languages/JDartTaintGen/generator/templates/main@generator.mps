@@ -2577,12 +2577,12 @@
         </node>
         <node concept="3cpWs8" id="4Qtfy_fzfP6" role="3cqZAp">
           <node concept="3cpWsn" id="4Qtfy_fzfP7" role="3cpWs9">
-            <property role="TrG5h" value="exitedClassName" />
+            <property role="TrG5h" value="currentClassName" />
             <node concept="17QB3L" id="4Qtfy_fzfP8" role="1tU5fm" />
             <node concept="2OqwBi" id="4Qtfy_fzfP9" role="33vP2m">
               <node concept="2OqwBi" id="4Qtfy_fzfPa" role="2Oq$k0">
                 <node concept="37vLTw" id="4Qtfy_fzfPb" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="exitedMethod" />
+                  <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
                 </node>
                 <node concept="liA8E" id="4Qtfy_fzfPc" role="2OqNvi">
                   <ref role="37wK5l" to="rlgy:~MethodInfo.getClassInfo()" resolve="getClassInfo" />
@@ -2596,11 +2596,11 @@
         </node>
         <node concept="3cpWs8" id="4Qtfy_fzwms" role="3cqZAp">
           <node concept="3cpWsn" id="4Qtfy_fzwmt" role="3cpWs9">
-            <property role="TrG5h" value="exitedMethodName" />
+            <property role="TrG5h" value="currentMethodName" />
             <node concept="17QB3L" id="4Qtfy_fzwmu" role="1tU5fm" />
             <node concept="2OqwBi" id="4Qtfy_fzwmv" role="33vP2m">
               <node concept="37vLTw" id="4Qtfy_fzwmw" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="exitedMethod" />
+                <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
               </node>
               <node concept="liA8E" id="4Qtfy_fzwmx" role="2OqNvi">
                 <ref role="37wK5l" to="rlgy:~MethodInfo.getName()" resolve="getName" />
@@ -2668,7 +2668,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="4Qtfy_fznIi" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="exitedClassName" />
+                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="currentClassName" />
               </node>
             </node>
             <node concept="37vLTw" id="4Qtfy_fyEe_" role="37vLTJ">
@@ -2731,7 +2731,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEeZ" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEf0" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzvAS" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="exitedClassName" />
+                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="currentClassName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEf2" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
@@ -2846,7 +2846,7 @@
                 </node>
               </node>
               <node concept="37vLTw" id="4Qtfy_fzvUQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="exitedClassName" />
+                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="currentClassName" />
               </node>
             </node>
             <node concept="37vLTw" id="4Qtfy_fyEfO" role="37vLTJ">
@@ -2907,7 +2907,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEgd" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEge" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzw3i" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="exitedClassName" />
+                <ref role="3cqZAo" node="4Qtfy_fzfP7" resolve="currentClassName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEgg" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
@@ -3013,7 +3013,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEgV" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEgW" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzCa1" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="exitedMethodName" />
+                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="currentMethodName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEgY" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
@@ -3118,7 +3118,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEhE" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEhF" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzCts" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="exitedMethodName" />
+                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="currentMethodName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEhH" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String)" resolve="startsWith" />
@@ -3221,7 +3221,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEio" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEip" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzC$z" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="exitedMethodName" />
+                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="currentMethodName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEir" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String)" resolve="endsWith" />
@@ -3324,7 +3324,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEj6" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEj7" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fzCFE" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="exitedMethodName" />
+                <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="currentMethodName" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEj9" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
@@ -3425,7 +3425,7 @@
           <node concept="3vZ8ra" id="4Qtfy_fyEjN" role="3clFbG">
             <node concept="2OqwBi" id="4Qtfy_fyEjO" role="37vLTx">
               <node concept="37vLTw" id="4Qtfy_fyEjP" role="2Oq$k0">
-                <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="exitedMethod" />
+                <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
               </node>
               <node concept="liA8E" id="4Qtfy_fyEjQ" role="2OqNvi">
                 <ref role="37wK5l" to="rlgy:~MethodInfo.isInit()" resolve="isInit" />
@@ -3460,7 +3460,7 @@
             <node concept="3fqX7Q" id="4Qtfy_fyEk3" role="37vLTx">
               <node concept="2OqwBi" id="4Qtfy_fyEk4" role="3fr31v">
                 <node concept="37vLTw" id="4Qtfy_fyEk5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="exitedMethod" />
+                  <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
                 </node>
                 <node concept="liA8E" id="4Qtfy_fyEk6" role="2OqNvi">
                   <ref role="37wK5l" to="rlgy:~MethodInfo.isInit()" resolve="isInit" />
@@ -3496,11 +3496,11 @@
         <node concept="3clFbH" id="4Qtfy_fyEki" role="3cqZAp" />
         <node concept="3SKdUt" id="4Qtfy_fyEkj" role="3cqZAp">
           <node concept="1PaTwC" id="4Qtfy_fyEkk" role="3ndbpf">
-            <node concept="3oM_SD" id="4Qtfy_fyEkl" role="1PaTwD">
-              <property role="3oM_SC" value="Check" />
+            <node concept="3oM_SD" id="467Pr2MzE8e" role="1PaTwD">
+              <property role="3oM_SC" value="Collect" />
             </node>
-            <node concept="3oM_SD" id="4Qtfy_fyEkm" role="1PaTwD">
-              <property role="3oM_SC" value="for" />
+            <node concept="3oM_SD" id="467Pr2MzE8p" role="1PaTwD">
+              <property role="3oM_SC" value="method" />
             </node>
             <node concept="3oM_SD" id="4Qtfy_fyEkn" role="1PaTwD">
               <property role="3oM_SC" value="parameters" />
@@ -3607,8 +3607,31 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="467Pr2MzhXg" role="3cqZAp" />
         <node concept="3clFbJ" id="4Qtfy_fyEl0" role="3cqZAp">
           <node concept="3clFbS" id="4Qtfy_fyEl1" role="3clFbx">
+            <node concept="3SKdUt" id="467Pr2MzPHn" role="3cqZAp">
+              <node concept="1PaTwC" id="467Pr2MzPHo" role="3ndbpf">
+                <node concept="3oM_SD" id="467Pr2MzPHq" role="1PaTwD">
+                  <property role="3oM_SC" value="Check" />
+                </node>
+                <node concept="3oM_SD" id="467Pr2MzPP9" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="467Pr2MzPPc" role="1PaTwD">
+                  <property role="3oM_SC" value="length" />
+                </node>
+                <node concept="3oM_SD" id="467Pr2MzPPo" role="1PaTwD">
+                  <property role="3oM_SC" value="of" />
+                </node>
+                <node concept="3oM_SD" id="467Pr2MzPPt" role="1PaTwD">
+                  <property role="3oM_SC" value="passed" />
+                </node>
+                <node concept="3oM_SD" id="467Pr2MzPPF" role="1PaTwD">
+                  <property role="3oM_SC" value="arguments" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="4Qtfy_fyEl2" role="3cqZAp">
               <node concept="3vZ8ra" id="4Qtfy_fyEl3" role="3clFbG">
                 <node concept="3clFbC" id="4Qtfy_fyEl4" role="37vLTx">
@@ -3778,7 +3801,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="4Qtfy_fwspR" role="3clF46">
-        <property role="TrG5h" value="exitedMethod" />
+        <property role="TrG5h" value="currentMethod" />
         <node concept="3uibUv" id="4Qtfy_fwwCN" role="1tU5fm">
           <ref role="3uigEE" to="rlgy:~MethodInfo" resolve="MethodInfo" />
         </node>
@@ -3974,7 +3997,7 @@
         <node concept="TUZQ0" id="4Qtfy_fAlmh" role="3nqlJM">
           <property role="TUZQ4" value="The exited method that triggered the process" />
           <node concept="zr_55" id="4Qtfy_fAlmj" role="zr_5Q">
-            <ref role="zr_51" node="4Qtfy_fwspR" resolve="exitedMethod" />
+            <ref role="zr_51" node="4Qtfy_fwspR" resolve="currentMethod" />
           </node>
         </node>
         <node concept="TZ5HA" id="4Qtfy_fALLk" role="TZ5H$">
