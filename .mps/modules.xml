@@ -5,7 +5,6 @@
       <modulePath path="$PROJECT_DIR$/languages/JDartTaintGen/JDartTaintGen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/JDartTaintGen/runtime/JDartTaintGen.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/JDartTaintGen/sandbox/JDartTaintGen.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/JDartTaintGen.lib/JDartTaintGen.lib.msd" folder="" />
     </projectModules>
   </component>
 </project>

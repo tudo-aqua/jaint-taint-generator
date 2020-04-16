@@ -11,15 +11,11 @@
     </facet>
   </facets>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">f669ac5d-3b85-45be-a0ac-ccc440208724(JDartTaintGen.lib)</dependency>
-  </dependencies>
   <languageVersions>
     <language slang="l:d29ed155-5a69-438b-817d-70e96ceef79e:JDartTaintGen" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="f669ac5d-3b85-45be-a0ac-ccc440208724(JDartTaintGen.lib)" version="0" />
     <module reference="0b093af8-f55a-4ea0-ba62-b890f5a490be(JDartTaintGen.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
