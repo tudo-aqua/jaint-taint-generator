@@ -19,6 +19,7 @@
         <child id="1701909078719250932" name="signatures" index="EzaiY" />
       </concept>
       <concept id="1701909078719250731" name="JDartTaintGen.structure.Sink" flags="ng" index="Ezahx">
+        <property id="7768624156564737384" name="extendTaintOnParametersReached" index="36gfZE" />
         <property id="1961901437117924184" name="variable" index="1Sx16I" />
         <child id="1701909078719250959" name="sinks" index="Ezat5" />
       </concept>
@@ -109,6 +110,7 @@
       <property role="TrG5h" value="CrossSiteScripting" />
       <node concept="Ezahx" id="1GU4JpzJB4U" role="EzuqK">
         <property role="1Sx16I" value="xss" />
+        <property role="36gfZE" value="true" />
         <node concept="Ezahw" id="1GU4JpzJB4V" role="Ezat5">
           <node concept="Ezahz" id="1GU4JpzJB4W" role="EzaiY">
             <node concept="EzahV" id="1GU4JpzJB4X" role="Ezagr">

@@ -228,6 +228,24 @@
       <node concept="3F0A7n" id="1GU4JpzJwdz" role="3EZMnx">
         <ref role="1NtTu8" to="y4i8:1GU4JpzJwdo" resolve="variable" />
       </node>
+      <node concept="3F0ifn" id="6JfGCaHzOPM" role="3EZMnx">
+        <property role="3F0ifm" value="+" />
+        <node concept="pkWqt" id="6JfGCaHzOPT" role="pqm2j">
+          <node concept="3clFbS" id="6JfGCaHzOPU" role="2VODD2">
+            <node concept="3cpWs6" id="6JfGCaHzOTP" role="3cqZAp">
+              <node concept="2OqwBi" id="6JfGCaHzP6J" role="3cqZAk">
+                <node concept="pncrf" id="6JfGCaHzOU1" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6JfGCaHzPjw" role="2OqNvi">
+                  <ref role="3TsBF5" to="y4i8:6JfGCaHzOPC" resolve="extendTaintOnParametersReached" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="11L4FC" id="6JfGCaHzZlR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="1uupkCX4G8M" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>

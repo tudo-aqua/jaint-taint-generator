@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -23,7 +26,9 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -32,6 +37,9 @@
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -439,6 +447,65 @@
         <node concept="3clFbF" id="1uupkCX5wp_" role="3cqZAp">
           <node concept="3clFbT" id="1uupkCX5wp$" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6JfGCaHzPp$">
+    <property role="TrG5h" value="ToggleExtendTaintToParameters" />
+    <ref role="2ZfgGC" to="y4i8:1uupkCX4G4F" resolve="Sink" />
+    <node concept="2S6ZIM" id="6JfGCaHzPp_" role="2ZfVej">
+      <node concept="3clFbS" id="6JfGCaHzPpA" role="2VODD2">
+        <node concept="3clFbJ" id="6JfGCaH$c$V" role="3cqZAp">
+          <node concept="3clFbS" id="6JfGCaH$c$X" role="3clFbx">
+            <node concept="3clFbH" id="6JfGCaH$d6L" role="3cqZAp" />
+            <node concept="3cpWs6" id="6JfGCaH$d3Y" role="3cqZAp">
+              <node concept="Xl_RD" id="6JfGCaHzPzv" role="3cqZAk">
+                <property role="Xl_RC" value="Extend Taint to not Only Check Immediate Taint" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="6JfGCaH$fuY" role="3clFbw">
+            <node concept="2OqwBi" id="6JfGCaH$fv0" role="3fr31v">
+              <node concept="2Sf5sV" id="6JfGCaH$fv1" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6JfGCaH$fv2" role="2OqNvi">
+                <ref role="3TsBF5" to="y4i8:6JfGCaHzOPC" resolve="extendTaintOnParametersReached" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="6JfGCaH$d7_" role="9aQIa">
+            <node concept="3clFbS" id="6JfGCaH$d7A" role="9aQI4">
+              <node concept="3cpWs6" id="6JfGCaH$d8k" role="3cqZAp">
+                <node concept="Xl_RD" id="6JfGCaH$d9h" role="3cqZAk">
+                  <property role="Xl_RC" value="Restrict Taint to Immediate Taint" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6JfGCaHzPpB" role="2ZfgGD">
+      <node concept="3clFbS" id="6JfGCaHzPpC" role="2VODD2">
+        <node concept="3clFbF" id="6JfGCaHzQ9d" role="3cqZAp">
+          <node concept="2OqwBi" id="6JfGCaHzQt9" role="3clFbG">
+            <node concept="2OqwBi" id="6JfGCaHzQ9v" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6JfGCaHzQ9c" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6JfGCaHzQat" role="2OqNvi">
+                <ref role="3TsBF5" to="y4i8:6JfGCaHzOPC" resolve="extendTaintOnParametersReached" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="6JfGCaHzQDv" role="2OqNvi">
+              <node concept="3fqX7Q" id="6JfGCaHzQFw" role="tz02z">
+                <node concept="2OqwBi" id="6JfGCaHzQRf" role="3fr31v">
+                  <node concept="2Sf5sV" id="6JfGCaHzQI0" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="6JfGCaHzQYK" role="2OqNvi">
+                    <ref role="3TsBF5" to="y4i8:6JfGCaHzOPC" resolve="extendTaintOnParametersReached" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

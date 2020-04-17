@@ -107,6 +107,11 @@
       <property role="TrG5h" value="variable" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="6JfGCaHzOPC" role="1TKVEl">
+      <property role="IQ2nx" value="7768624156564737384" />
+      <property role="TrG5h" value="extendTaintOnParametersReached" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1uupkCX4G4G">
     <property role="EcuMT" value="1701909078719250732" />
