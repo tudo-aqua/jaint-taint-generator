@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="JDartTaintGen.sandbox" uuid="0b093af8-f55a-4ea0-ba62-b890f5a490be" moduleVersion="0" compileInMPS="true">
+<solution name="JDartTaintGen.sandbox" uuid="0b093af8-f55a-4ea0-ba62-b890f5a490be" moduleVersion="0" compileInMPS="false">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
