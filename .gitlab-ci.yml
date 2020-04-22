@@ -4,5 +4,7 @@ build:
     stage: build
     script:
         - ant -version
+        - ls ./work
         - cd /builds/aqua/jdart-taint-generator/
         - ls
+        - ant build
