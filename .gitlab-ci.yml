@@ -11,3 +11,7 @@ build:
         - ant generate -Dmps_home=/work/mps_home
         - mkdir /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/runtime/source_gen
         - ant -Dmps_home=/work/mps_home
+
+artifacts: 
+    when: on_success
+    paths: /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/sandbox/source_gen
