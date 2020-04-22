@@ -7,5 +7,5 @@ build:
         - ls /work
         - cd /builds/aqua/jdart-taint-generator/
         - ls
-        - ls /work/mps-home
-        - ant -Dmps_home=/work/mps-home
+        - ls /work/mps_home
+        - ant -Dmps_home=/work/mps_home
