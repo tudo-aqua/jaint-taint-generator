@@ -9,3 +9,5 @@ build:
         - ls
         - ls /work/mps_home
         - ant generate -Dmps_home=/work/mps_home
+        - mkdir /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/runtime/source_gen
+        - ant -Dmps_home=/work/mps_home
