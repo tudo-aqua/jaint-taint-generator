@@ -1,0 +1,6 @@
+image: aqua/jdart-taint-generator
+
+build:
+    stage: build
+    script:
+        - ant --version
