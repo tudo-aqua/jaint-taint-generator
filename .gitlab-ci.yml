@@ -15,10 +15,10 @@ build:
     stage: build
     script:
         - cd /builds/aqua/jdart-taint-generator/
-        - mkdir /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/sandbox/source_gen
         - mkdir /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/runtime/source_gen
+        - mkdir /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/sandbox/source_gen
         - ant -Dmps_home=/work/mps_home
     artifacts:
         when: on_success
         paths:
-            - /builds/aqua/jdart-taint-generator/build/tmp/jdart-taint-generator/default/JDartTaintGen-generator.jar
+            - /builds/aqua/jdart-taint-generator/build/artifacts/jdart-taint-generator/jdart-taint-generator.zip
