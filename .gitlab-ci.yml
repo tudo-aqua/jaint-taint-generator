@@ -1,4 +1,4 @@
-image: aqua/jdart-taint-generator
+image: aqua-scm.cs.tu-dortmund.de:4567/aqua/jdart-taint-generator
 
 build:
     stage: build
