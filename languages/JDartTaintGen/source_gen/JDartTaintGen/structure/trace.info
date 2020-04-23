@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,109,0" name="JDartTaintGen.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,48,0" name="JDartTaintGen.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="16,0,188,0" name="JDartTaintGen.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250728">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250728" at="12,0,13,0" concept="1" trace="props_Sanitization" />
+      <node id="1701909078719250728" at="30,41,31,76" concept="3" />
+      <node id="1701909078719250728" at="31,76,32,46" concept="0" />
+      <node id="1701909078719250728" at="32,46,33,44" concept="0" />
+      <node id="1701909078719250728" at="34,9,35,34" concept="4" />
+      <node id="1701909078719250728" at="29,46,34,9" concept="2" />
+      <scope id="1701909078719250728" at="30,41,33,44">
+        <var name="cpb" id="1701909078719250728" />
+      </scope>
+      <scope id="1701909078719250728" at="29,46,35,34" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250728" at="12,0,13,0" concept="5" trace="Sanitization" />
+      <node id="1701909078719250728" at="25,116,26,51" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250728" at="17,0,18,0" concept="1" trace="myConceptSanitization" />
+      <node id="1701909078719250728" at="49,46,50,37" concept="4" />
+      <node id="1701909078719250728" at="85,70,86,160" concept="3" />
+      <node id="1701909078719250728" at="86,160,87,34" concept="0" />
+      <node id="1701909078719250728" at="87,34,88,100" concept="0" />
+      <node id="1701909078719250728" at="88,100,89,17" concept="0" />
+      <node id="1701909078719250740" at="89,17,90,206" concept="0" />
+      <node id="1701909078719250728" at="90,206,91,22" concept="4" />
+      <node id="1701909078719250728" at="85,0,93,0" concept="6" trace="createDescriptorForSanitization#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250728" at="49,46,50,37" />
+      <scope id="1701909078719250728" at="85,70,91,22">
+        <var name="b" id="1701909078719250728" />
+      </scope>
+      <scope id="1701909078719250728" at="85,0,93,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250729">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250729" at="13,0,14,0" concept="1" trace="props_Signature" />
+      <node id="1701909078719250729" at="37,38,38,76" concept="3" />
+      <node id="1701909078719250729" at="38,76,39,43" concept="0" />
+      <node id="1701909078719250729" at="39,43,40,41" concept="0" />
+      <node id="1701909078719250729" at="41,9,42,31" concept="4" />
+      <node id="1701909078719250729" at="36,43,41,9" concept="2" />
+      <scope id="1701909078719250729" at="37,38,40,41">
+        <var name="cpb" id="1701909078719250729" />
+      </scope>
+      <scope id="1701909078719250729" at="36,43,42,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250729" at="13,0,14,0" concept="5" trace="Signature" />
+      <node id="1701909078719250729" at="26,51,27,48" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250729" at="18,0,19,0" concept="1" trace="myConceptSignature" />
+      <node id="1701909078719250729" at="51,43,52,34" concept="4" />
+      <node id="1701909078719250729" at="93,67,94,157" concept="3" />
+      <node id="1701909078719250729" at="94,157,95,34" concept="0" />
+      <node id="1701909078719250729" at="95,34,96,100" concept="0" />
+      <node id="1701909078719250729" at="96,100,97,17" concept="0" />
+      <node id="1701909078719250769" at="97,17,98,199" concept="0" />
+      <node id="1701909078719250771" at="98,199,99,200" concept="0" />
+      <node id="1701909078719250774" at="99,200,100,199" concept="0" />
+      <node id="1701909078719250729" at="100,199,101,22" concept="4" />
+      <node id="1701909078719250729" at="93,0,103,0" concept="6" trace="createDescriptorForSignature#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250729" at="51,43,52,34" />
+      <scope id="1701909078719250729" at="93,67,101,22">
+        <var name="b" id="1701909078719250729" />
+      </scope>
+      <scope id="1701909078719250729" at="93,0,103,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250730">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250730" at="14,0,15,0" concept="1" trace="props_Signatures" />
+      <node id="1701909078719250730" at="44,39,45,76" concept="3" />
+      <node id="1701909078719250730" at="45,76,46,44" concept="0" />
+      <node id="1701909078719250730" at="46,44,47,42" concept="0" />
+      <node id="1701909078719250730" at="48,9,49,32" concept="4" />
+      <node id="1701909078719250730" at="43,44,48,9" concept="2" />
+      <scope id="1701909078719250730" at="44,39,47,42">
+        <var name="cpb" id="1701909078719250730" />
+      </scope>
+      <scope id="1701909078719250730" at="43,44,49,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250730" at="14,0,15,0" concept="5" trace="Signatures" />
+      <node id="1701909078719250730" at="27,48,28,49" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250730" at="19,0,20,0" concept="1" trace="myConceptSignatures" />
+      <node id="1701909078719250730" at="53,44,54,35" concept="4" />
+      <node id="1701909078719250730" at="103,68,104,158" concept="3" />
+      <node id="1701909078719250730" at="104,158,105,34" concept="0" />
+      <node id="1701909078719250730" at="105,34,106,100" concept="0" />
+      <node id="1701909078719250730" at="106,100,107,17" concept="0" />
+      <node id="1701909078719250932" at="107,17,108,203" concept="0" />
+      <node id="1701909078719250730" at="108,203,109,22" concept="4" />
+      <node id="1701909078719250730" at="103,0,111,0" concept="6" trace="createDescriptorForSignatures#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250730" at="53,44,54,35" />
+      <scope id="1701909078719250730" at="103,68,109,22">
+        <var name="b" id="1701909078719250730" />
+      </scope>
+      <scope id="1701909078719250730" at="103,0,111,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250731">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250731" at="15,0,16,0" concept="1" trace="props_Sink" />
+      <node id="1701909078719250731" at="51,33,52,76" concept="3" />
+      <node id="1701909078719250731" at="52,76,53,38" concept="0" />
+      <node id="1701909078719250731" at="53,38,54,36" concept="0" />
+      <node id="1701909078719250731" at="55,9,56,26" concept="4" />
+      <node id="1701909078719250731" at="50,38,55,9" concept="2" />
+      <scope id="1701909078719250731" at="51,33,54,36">
+        <var name="cpb" id="1701909078719250731" />
+      </scope>
+      <scope id="1701909078719250731" at="50,38,56,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250731" at="15,0,16,0" concept="5" trace="Sink" />
+      <node id="1701909078719250731" at="28,49,29,43" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250731" at="20,0,21,0" concept="1" trace="myConceptSink" />
+      <node id="1701909078719250731" at="55,38,56,29" concept="4" />
+      <node id="1701909078719250731" at="111,62,112,152" concept="3" />
+      <node id="1701909078719250731" at="112,152,113,34" concept="0" />
+      <node id="1701909078719250731" at="113,34,114,100" concept="0" />
+      <node id="1701909078719250731" at="114,100,115,17" concept="0" />
+      <node id="1961901437117924184" at="115,17,116,114" concept="0" />
+      <node id="7768624156564737384" at="116,114,117,137" concept="0" />
+      <node id="1701909078719250959" at="117,137,118,199" concept="0" />
+      <node id="1701909078719250731" at="118,199,119,22" concept="4" />
+      <node id="1701909078719250731" at="111,0,121,0" concept="6" trace="createDescriptorForSink#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250731" at="55,38,56,29" />
+      <scope id="1701909078719250731" at="111,62,119,22">
+        <var name="b" id="1701909078719250731" />
+      </scope>
+      <scope id="1701909078719250731" at="111,0,121,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250732">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250732" at="16,0,17,0" concept="1" trace="props_Source" />
+      <node id="1701909078719250732" at="58,35,59,76" concept="3" />
+      <node id="1701909078719250732" at="59,76,60,40" concept="0" />
+      <node id="1701909078719250732" at="60,40,61,38" concept="0" />
+      <node id="1701909078719250732" at="62,9,63,28" concept="4" />
+      <node id="1701909078719250732" at="57,40,62,9" concept="2" />
+      <scope id="1701909078719250732" at="58,35,61,38">
+        <var name="cpb" id="1701909078719250732" />
+      </scope>
+      <scope id="1701909078719250732" at="57,40,63,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250732" at="16,0,17,0" concept="5" trace="Source" />
+      <node id="1701909078719250732" at="29,43,30,45" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250732" at="21,0,22,0" concept="1" trace="myConceptSource" />
+      <node id="1701909078719250732" at="57,40,58,31" concept="4" />
+      <node id="1701909078719250732" at="121,64,122,154" concept="3" />
+      <node id="1701909078719250732" at="122,154,123,34" concept="0" />
+      <node id="1701909078719250732" at="123,34,124,100" concept="0" />
+      <node id="1701909078719250732" at="124,100,125,17" concept="0" />
+      <node id="1701909078719300548" at="125,17,126,204" concept="0" />
+      <node id="1701909078719250732" at="126,204,127,22" concept="4" />
+      <node id="1701909078719250732" at="121,0,129,0" concept="6" trace="createDescriptorForSource#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250732" at="57,40,58,31" />
+      <scope id="1701909078719250732" at="121,64,127,22">
+        <var name="b" id="1701909078719250732" />
+      </scope>
+      <scope id="1701909078719250732" at="121,0,129,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250733">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250733" at="17,0,18,0" concept="1" trace="props_TaintAnalysis" />
+      <node id="1701909078719250733" at="65,42,66,76" concept="3" />
+      <node id="1701909078719250733" at="66,76,67,35" concept="0" />
+      <node id="1701909078719250733" at="67,35,68,45" concept="0" />
+      <node id="1701909078719250733" at="69,9,70,35" concept="4" />
+      <node id="1701909078719250733" at="64,47,69,9" concept="2" />
+      <scope id="1701909078719250733" at="65,42,68,45">
+        <var name="cpb" id="1701909078719250733" />
+      </scope>
+      <scope id="1701909078719250733" at="64,47,70,35" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250733" at="17,0,18,0" concept="5" trace="TaintAnalysis" />
+      <node id="1701909078719250733" at="30,45,31,52" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250733" at="22,0,23,0" concept="1" trace="myConceptTaintAnalysis" />
+      <node id="1701909078719250733" at="59,47,60,38" concept="4" />
+      <node id="1701909078719250733" at="129,71,130,161" concept="3" />
+      <node id="1701909078719250733" at="130,161,131,33" concept="0" />
+      <node id="1701909078719250733" at="131,33,132,71" concept="0" />
+      <node id="1701909078719250733" at="132,71,133,100" concept="0" />
+      <node id="1701909078719250733" at="133,100,134,17" concept="0" />
+      <node id="1701909078719300597" at="134,17,135,199" concept="0" />
+      <node id="1701909078719300599" at="135,199,136,205" concept="0" />
+      <node id="1701909078719300602" at="136,205,137,198" concept="0" />
+      <node id="1701909078719250733" at="137,198,138,22" concept="4" />
+      <node id="1701909078719250733" at="129,0,140,0" concept="6" trace="createDescriptorForTaintAnalysis#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250733" at="59,47,60,38" />
+      <scope id="1701909078719250733" at="129,71,138,22">
+        <var name="b" id="1701909078719250733" />
+      </scope>
+      <scope id="1701909078719250733" at="129,0,140,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250736">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250736" at="20,0,21,0" concept="1" trace="props_WildcardedElement" />
+      <node id="1701909078719250736" at="86,46,87,76" concept="3" />
+      <node id="1701909078719250736" at="87,76,88,49" concept="0" />
+      <node id="1701909078719250736" at="89,9,90,39" concept="4" />
+      <node id="1701909078719250736" at="85,51,89,9" concept="2" />
+      <scope id="1701909078719250736" at="86,46,88,49">
+        <var name="cpb" id="1701909078719250736" />
+      </scope>
+      <scope id="1701909078719250736" at="85,51,90,39" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250736" at="20,0,21,0" concept="5" trace="WildcardedElement" />
+      <node id="1701909078719250736" at="33,54,34,56" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250736" at="25,0,26,0" concept="1" trace="myConceptWildcardedElement" />
+      <node id="1701909078719250736" at="65,51,66,42" concept="4" />
+      <node id="1701909078719250736" at="158,75,159,165" concept="3" />
+      <node id="1701909078719250736" at="159,165,160,33" concept="0" />
+      <node id="1701909078719250736" at="160,33,161,100" concept="0" />
+      <node id="1701909078719250736" at="161,100,162,17" concept="0" />
+      <node id="1701909078719301497" at="162,17,163,121" concept="0" />
+      <node id="1701909078719301499" at="163,121,164,122" concept="0" />
+      <node id="1701909078719301502" at="164,122,165,125" concept="0" />
+      <node id="1701909078719250736" at="165,125,166,22" concept="4" />
+      <node id="1701909078719250736" at="158,0,168,0" concept="6" trace="createDescriptorForWildcardedElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250736" at="65,51,66,42" />
+      <scope id="1701909078719250736" at="158,75,166,22">
+        <var name="b" id="1701909078719250736" />
+      </scope>
+      <scope id="1701909078719250736" at="158,0,168,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250737">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250737" at="19,0,20,0" concept="1" trace="props_WildcardedClass" />
+      <node id="1701909078719250737" at="79,44,80,76" concept="3" />
+      <node id="1701909078719250737" at="80,76,81,39" concept="0" />
+      <node id="1701909078719250737" at="81,39,82,47" concept="0" />
+      <node id="1701909078719250737" at="83,9,84,37" concept="4" />
+      <node id="1701909078719250737" at="78,49,83,9" concept="2" />
+      <scope id="1701909078719250737" at="79,44,82,47">
+        <var name="cpb" id="1701909078719250737" />
+      </scope>
+      <scope id="1701909078719250737" at="78,49,84,37" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250737" at="19,0,20,0" concept="5" trace="WildcardedClass" />
+      <node id="1701909078719250737" at="32,47,33,54" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250737" at="24,0,25,0" concept="1" trace="myConceptWildcardedClass" />
+      <node id="1701909078719250737" at="63,49,64,40" concept="4" />
+      <node id="1701909078719250737" at="148,73,149,163" concept="3" />
+      <node id="1701909078719250737" at="149,163,150,34" concept="0" />
+      <node id="1701909078719250737" at="150,34,151,121" concept="0" />
+      <node id="1701909078719250737" at="151,121,152,100" concept="0" />
+      <node id="1701909078719250737" at="152,100,153,17" concept="0" />
+      <node id="1701909078719300667" at="153,17,154,111" concept="0" />
+      <node id="1701909078719250737" at="154,111,155,21" concept="0" />
+      <node id="1701909078719250737" at="155,21,156,22" concept="4" />
+      <node id="1701909078719250737" at="148,0,158,0" concept="6" trace="createDescriptorForWildcardedClass#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250737" at="63,49,64,40" />
+      <scope id="1701909078719250737" at="148,73,156,22">
+        <var name="b" id="1701909078719250737" />
+      </scope>
+      <scope id="1701909078719250737" at="148,0,158,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250738">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250738" at="21,0,22,0" concept="1" trace="props_WildcardedMethod" />
+      <node id="1701909078719250738" at="92,45,93,76" concept="3" />
+      <node id="1701909078719250738" at="93,76,94,50" concept="0" />
+      <node id="1701909078719250738" at="94,50,95,48" concept="0" />
+      <node id="1701909078719250738" at="96,9,97,38" concept="4" />
+      <node id="1701909078719250738" at="91,50,96,9" concept="2" />
+      <scope id="1701909078719250738" at="92,45,95,48">
+        <var name="cpb" id="1701909078719250738" />
+      </scope>
+      <scope id="1701909078719250738" at="91,50,97,38" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250738" at="21,0,22,0" concept="5" trace="WildcardedMethod" />
+      <node id="1701909078719250738" at="34,56,35,55" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250738" at="26,0,27,0" concept="1" trace="myConceptWildcardedMethod" />
+      <node id="1701909078719250738" at="67,50,68,41" concept="4" />
+      <node id="1701909078719250738" at="168,74,169,164" concept="3" />
+      <node id="1701909078719250738" at="169,164,170,34" concept="0" />
+      <node id="1701909078719250738" at="170,34,171,121" concept="0" />
+      <node id="1701909078719250738" at="171,121,172,100" concept="0" />
+      <node id="1701909078719250738" at="172,100,173,17" concept="0" />
+      <node id="1701909078719361052" at="173,17,174,112" concept="0" />
+      <node id="1701909078719459256" at="174,112,175,121" concept="0" />
+      <node id="1701909078719250738" at="175,121,176,22" concept="4" />
+      <node id="1701909078719250738" at="168,0,178,0" concept="6" trace="createDescriptorForWildcardedMethod#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250738" at="67,50,68,41" />
+      <scope id="1701909078719250738" at="168,74,176,22">
+        <var name="b" id="1701909078719250738" />
+      </scope>
+      <scope id="1701909078719250738" at="168,0,178,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250739">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1701909078719250739" at="22,0,23,0" concept="1" trace="props_WildcardedParams" />
+      <node id="1701909078719250739" at="99,45,100,76" concept="3" />
+      <node id="1701909078719250739" at="100,76,101,50" concept="0" />
+      <node id="1701909078719250739" at="101,50,102,48" concept="0" />
+      <node id="1701909078719250739" at="103,9,104,38" concept="4" />
+      <node id="1701909078719250739" at="98,50,103,9" concept="2" />
+      <scope id="1701909078719250739" at="99,45,102,48">
+        <var name="cpb" id="1701909078719250739" />
+      </scope>
+      <scope id="1701909078719250739" at="98,50,104,38" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1701909078719250739" at="22,0,23,0" concept="5" trace="WildcardedParams" />
+      <node id="1701909078719250739" at="35,55,36,55" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1701909078719250739" at="27,0,28,0" concept="1" trace="myConceptWildcardedParams" />
+      <node id="1701909078719250739" at="69,50,70,41" concept="4" />
+      <node id="1701909078719250739" at="178,74,179,164" concept="3" />
+      <node id="1701909078719250739" at="179,164,180,34" concept="0" />
+      <node id="1701909078719250739" at="180,34,181,121" concept="0" />
+      <node id="1701909078719250739" at="181,121,182,100" concept="0" />
+      <node id="1701909078719250739" at="182,100,183,17" concept="0" />
+      <node id="1701909078719367106" at="183,17,184,112" concept="0" />
+      <node id="1701909078719250739" at="184,112,185,22" concept="4" />
+      <node id="1701909078719250739" at="178,0,187,0" concept="6" trace="createDescriptorForWildcardedParams#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1701909078719250739" at="69,50,70,41" />
+      <scope id="1701909078719250739" at="178,74,185,22">
+        <var name="b" id="1701909078719250739" />
+      </scope>
+      <scope id="1701909078719250739" at="178,0,187,0" />
+    </file>
+  </root>
+  <root nodeRef="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/2254544058171606285">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="2254544058171606285" at="18,0,19,0" concept="1" trace="props_TaintGen" />
+      <node id="2254544058171606285" at="72,37,73,76" concept="3" />
+      <node id="2254544058171606285" at="73,76,74,42" concept="0" />
+      <node id="2254544058171606285" at="74,42,75,40" concept="0" />
+      <node id="2254544058171606285" at="76,9,77,30" concept="4" />
+      <node id="2254544058171606285" at="71,42,76,9" concept="2" />
+      <scope id="2254544058171606285" at="72,37,75,40">
+        <var name="cpb" id="2254544058171606285" />
+      </scope>
+      <scope id="2254544058171606285" at="71,42,77,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="2254544058171606285" at="18,0,19,0" concept="5" trace="TaintGen" />
+      <node id="2254544058171606285" at="31,52,32,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2254544058171606285" at="23,0,24,0" concept="1" trace="myConceptTaintGen" />
+      <node id="2254544058171606285" at="61,42,62,33" concept="4" />
+      <node id="2254544058171606285" at="140,66,141,156" concept="3" />
+      <node id="2254544058171606285" at="141,156,142,33" concept="0" />
+      <node id="2254544058171606285" at="142,33,143,100" concept="0" />
+      <node id="2254544058171606285" at="143,100,144,17" concept="0" />
+      <node id="2254544058171606286" at="144,17,145,199" concept="0" />
+      <node id="2254544058171606285" at="145,199,146,22" concept="4" />
+      <node id="2254544058171606285" at="140,0,148,0" concept="6" trace="createDescriptorForTaintGen#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="2254544058171606285" at="61,42,62,33" />
+      <scope id="2254544058171606285" at="140,66,146,22">
+        <var name="b" id="2254544058171606285" />
+      </scope>
+      <scope id="2254544058171606285" at="140,0,148,0" />
+    </file>
+  </root>
+</debug-info>
+

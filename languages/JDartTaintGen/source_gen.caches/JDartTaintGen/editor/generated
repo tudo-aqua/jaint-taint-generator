@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-dicjr5fk7z6ngspwzd05b6kawt53l3t">
+  <files names="EditorAspectDescriptorImpl.java:Sanitization_Editor.java:Sanitization_EditorBuilder_a.java:Signature_Editor.java:Signature_EditorBuilder_a.java:Signatures_Editor.java:Signatures_EditorBuilder_a.java:Sink_Editor.java:Sink_EditorBuilder_a.java:Source_Editor.java:Source_EditorBuilder_a.java:TaintAnalysis_Editor.java:TaintAnalysis_EditorBuilder_a.java:TaintGen_Editor.java:TaintGen_EditorBuilder_a.java:WildcardedClass_Editor.java:WildcardedClass_EditorBuilder_a.java:WildcardedMethod_Editor.java:WildcardedMethod_EditorBuilder_a.java:WildcardedParams_Editor.java:WildcardedParams_EditorBuilder_a.java" />
+</product>
+

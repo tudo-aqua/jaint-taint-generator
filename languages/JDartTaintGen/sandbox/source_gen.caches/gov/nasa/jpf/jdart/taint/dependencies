@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="gov.nasa.jpf.jdart.taint.CrossSiteScriptingTaintInjector">
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintContainer" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintedVariable" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.ClassFile" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.JVMStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ChoiceGenerator" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ClassInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ElementInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.Instruction" />
+    <classNode dependClassName="gov.nasa.jpf.vm.LocalVarInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.MethodInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.NativeStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.StackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ThreadInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.VM" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="gov.nasa.jpf.jdart.taint.TaintChecker" />
+    <classNode extendsClassName="gov.nasa.jpf.vm.VMListener" />
+  </dependency>
+  <dependency className="gov.nasa.jpf.jdart.taint.SQLInjectionTaintInjector">
+    <classNode dependClassName="gov.nasa.jpf.JPFException" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.objects.SymbolicObject" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.objects.SymbolicString" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintContainer" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintedVariable" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.ClassFile" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.JVMStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ChoiceGenerator" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ClassInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ElementInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.Instruction" />
+    <classNode dependClassName="gov.nasa.jpf.vm.LocalVarInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.MethodInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.NativeStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.StackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ThreadInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.VM" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode extendsClassName="gov.nasa.jpf.jdart.taint.TaintChecker" />
+    <classNode extendsClassName="gov.nasa.jpf.vm.VMListener" />
+  </dependency>
+  <dependency className="gov.nasa.jpf.jdart.taint.TaintContainer">
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintContainer" />
+  </dependency>
+  <dependency className="gov.nasa.jpf.jdart.taint.TaintedVariable">
+    <classNode dependClassName="gov.nasa.jpf.constraints.types.Type" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintedVariable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="gov.nasa.jpf.constraints.api.Variable" />
+  </dependency>
+  <dependency className="gov.nasa.jpf.jdart.taint.WeakRandomnessTaintInjector">
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintContainer" />
+    <classNode dependClassName="gov.nasa.jpf.jdart.security.TaintedVariable" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.ClassFile" />
+    <classNode dependClassName="gov.nasa.jpf.jvm.JVMStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ChoiceGenerator" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ClassInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ElementInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.Instruction" />
+    <classNode dependClassName="gov.nasa.jpf.vm.LocalVarInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.MethodInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.NativeStackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.StackFrame" />
+    <classNode dependClassName="gov.nasa.jpf.vm.ThreadInfo" />
+    <classNode dependClassName="gov.nasa.jpf.vm.VM" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="gov.nasa.jpf.jdart.taint.TaintChecker" />
+    <classNode extendsClassName="gov.nasa.jpf.vm.VMListener" />
+  </dependency>
+</dependenciesRoot>
+
