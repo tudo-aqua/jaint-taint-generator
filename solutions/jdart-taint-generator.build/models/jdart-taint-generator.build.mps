@@ -140,25 +140,10 @@
     <node concept="398rNT" id="6JfGCaHz29$" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
       <node concept="55IIr" id="6JfGCaHz2b6" role="398pKh">
-        <node concept="2Ry0Ak" id="6JfGCaHz2bb" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="6JfGCaHz2be" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="6JfGCaHz2bj" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="6JfGCaHz2bo" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="6JfGCaHz2bt" role="2Ry0An">
-                  <property role="2Ry0Am" value="Program Files" />
-                  <node concept="2Ry0Ak" id="6JfGCaHz2by" role="2Ry0An">
-                    <property role="2Ry0Am" value="JetBrains" />
-                    <node concept="2Ry0Ak" id="6JfGCaHz2bB" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2019.3" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+        <node concept="2Ry0Ak" id="1Cft5JvLIPa" role="iGT6I">
+          <property role="2Ry0Am" value="mps-files" />
+          <node concept="2Ry0Ak" id="1Cft5JvLIPf" role="2Ry0An">
+            <property role="2Ry0Am" value="mps_home" />
           </node>
         </node>
       </node>
