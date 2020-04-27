@@ -95,9 +95,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)/1701909078719250729");
     b.version(2);
+    b.property("additionalMethodClass", 0x1a0f745bdfbf59adL).type(PrimitiveTypeId.STRING).origin("1877847507581491629").done();
     b.aggregate("class", 0x179e654a3d12c151L).target(0xd29ed1555a69438bL, 0x817d70e96ceef79eL, 0x179e654a3d12c131L).optional(false).ordered(true).multiple(false).origin("1701909078719250769").done();
     b.aggregate("method", 0x179e654a3d12c153L).target(0xd29ed1555a69438bL, 0x817d70e96ceef79eL, 0x179e654a3d12c132L).optional(false).ordered(true).multiple(false).origin("1701909078719250771").done();
     b.aggregate("params", 0x179e654a3d12c156L).target(0xd29ed1555a69438bL, 0x817d70e96ceef79eL, 0x179e654a3d12c133L).optional(true).ordered(true).multiple(false).origin("1701909078719250774").done();
+    b.aggregate("additionalMethod", 0x1a0f745bdfbcd1cfL).target(0xd29ed1555a69438bL, 0x817d70e96ceef79eL, 0x179e654a3d12c132L).optional(true).ordered(true).multiple(false).origin("1877847507581325775").done();
+    b.aggregate("additionalParam", 0x1a0f745bdfb8b345L).target(0xd29ed1555a69438bL, 0x817d70e96ceef79eL, 0x179e654a3d12c133L).optional(true).ordered(true).multiple(false).origin("1877847507581055813").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSignatures() {
