@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-8vieempv3dqq6udr4xl6fjmfjg8nlo8">
-  <files names="IntentionsDescriptor.java:ToggleConstructor_Intention.java:ToggleExtendTaintToParameters_Intention.java:ToggleGeneralWildcard_Intention.java:TogglePostWildcard_Intention.java:TogglePreWildcard_Intention.java" />
-</product>
-

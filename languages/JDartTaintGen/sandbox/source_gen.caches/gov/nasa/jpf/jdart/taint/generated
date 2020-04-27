@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="904okhekzyo9i9rpamcpwfjrac0t0k5">
-  <files names="CrossSiteScriptingTaintInjector.java:SQLInjectionTaintInjector.java:WeakRandomnessTaintInjector.java" />
-  <files dir="gov/nasa/jpf/jdart/security" names="TaintContainer.java:TaintedVariable.java" />
-</product>
-
