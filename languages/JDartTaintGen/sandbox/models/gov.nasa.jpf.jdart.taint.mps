@@ -30,6 +30,8 @@
         <child id="1701909078719250771" name="method" index="Ezagp" />
         <child id="1701909078719250769" name="class" index="Ezagr" />
         <child id="1701909078719250774" name="params" index="Ezags" />
+        <child id="1877847507581325775" name="additionalMethod" index="35GUmk" />
+        <child id="1877847507581055813" name="additionalParam" index="35HWsu" />
       </concept>
       <concept id="1701909078719250732" name="JDartTaintGen.structure.Source" flags="ng" index="EzahA">
         <child id="1701909078719300548" name="signatures" index="Ezuqe" />
@@ -118,6 +120,12 @@
             </node>
             <node concept="EzahS" id="1GU4JpzJB4Y" role="Ezagp">
               <property role="Eyxlm" value="getWriter" />
+            </node>
+            <node concept="EzahS" id="1Cft5JvJNNe" role="35GUmk">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="1Cft5JvJG0P" role="35HWsu">
+              <property role="Ezu8O" value="true" />
             </node>
           </node>
         </node>
