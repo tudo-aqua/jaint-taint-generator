@@ -264,7 +264,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="1Cft5JvINE7" role="3EZMnx">
-        <property role="3F0ifm" value="." />
+        <property role="3F0ifm" value=".&lt;" />
         <node concept="11L4FC" id="1Cft5JvINFr" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -277,6 +277,43 @@
               <node concept="2OqwBi" id="1Cft5JvJmdv" role="3clFbG">
                 <node concept="pncrf" id="1Cft5JvJlTY" role="2Oq$k0" />
                 <node concept="2qgKlT" id="1Cft5JvJmqk" role="2OqNvi">
+                  <ref role="37wK5l" to="bppm:1Cft5JvJjUP" resolve="usesAdditionalMethod" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1Cft5JvJQzG" role="3EZMnx">
+        <property role="1$x2rV" value="Return type of &quot;method&quot;" />
+        <ref role="1NtTu8" to="y4i8:1Cft5JvJPAH" resolve="additionalMethodClass" />
+        <node concept="pkWqt" id="1Cft5JvJQJt" role="pqm2j">
+          <node concept="3clFbS" id="1Cft5JvJQJu" role="2VODD2">
+            <node concept="3clFbF" id="1Cft5JvJQJR" role="3cqZAp">
+              <node concept="2OqwBi" id="1Cft5JvJQRd" role="3clFbG">
+                <node concept="pncrf" id="1Cft5JvJQJQ" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1Cft5JvJQSt" role="2OqNvi">
+                  <ref role="37wK5l" to="bppm:1Cft5JvJjUP" resolve="usesAdditionalMethod" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1Cft5JvJQ9b" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+        <node concept="11L4FC" id="1Cft5JvJQdb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1Cft5JvJQdg" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="1Cft5JvJQdk" role="pqm2j">
+          <node concept="3clFbS" id="1Cft5JvJQdl" role="2VODD2">
+            <node concept="3clFbF" id="1Cft5JvJQds" role="3cqZAp">
+              <node concept="2OqwBi" id="1Cft5JvJQkM" role="3clFbG">
+                <node concept="pncrf" id="1Cft5JvJQdr" role="2Oq$k0" />
+                <node concept="2qgKlT" id="1Cft5JvJQpP" role="2OqNvi">
                   <ref role="37wK5l" to="bppm:1Cft5JvJjUP" resolve="usesAdditionalMethod" />
                 </node>
               </node>

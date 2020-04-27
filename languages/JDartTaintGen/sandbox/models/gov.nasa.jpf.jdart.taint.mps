@@ -27,6 +27,7 @@
         <child id="1701909078719250740" name="sanitizations" index="EzahY" />
       </concept>
       <concept id="1701909078719250729" name="JDartTaintGen.structure.Signature" flags="ng" index="Ezahz">
+        <property id="1877847507581491629" name="additionalMethodClass" index="35G2RQ" />
         <child id="1701909078719250771" name="method" index="Ezagp" />
         <child id="1701909078719250769" name="class" index="Ezagr" />
         <child id="1701909078719250774" name="params" index="Ezags" />
@@ -115,6 +116,7 @@
         <property role="36gfZE" value="true" />
         <node concept="Ezahw" id="1GU4JpzJB4V" role="Ezat5">
           <node concept="Ezahz" id="1GU4JpzJB4W" role="EzaiY">
+            <property role="35G2RQ" value="java.io.PrintWriter" />
             <node concept="EzahV" id="1GU4JpzJB4X" role="Ezagr">
               <property role="Ezu5L" value="javax.servlet.http.HttpServletResponse" />
             </node>
