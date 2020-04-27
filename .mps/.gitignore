@@ -76,3 +76,6 @@ teamcity-info.xml
 
 # Versions of library dependecies required for platform (like Kotlin, JDK etc)
 /build/dependencies
+
+#local mps files
+/mps-files
