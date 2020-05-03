@@ -78,6 +78,12 @@
       <property role="20kJfa" value="params" />
       <ref role="20lvS9" node="1uupkCX4G4N" resolve="WildcardedParams" />
     </node>
+    <node concept="1TJgyj" id="56c4uph43Ea" role="1TKVEi">
+      <property role="IQ2ns" value="5876091294711822986" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="additionalClass" />
+      <ref role="20lvS9" node="1uupkCX4G4L" resolve="WildcardedClass" />
+    </node>
     <node concept="1TJgyj" id="1Cft5JvJd7f" role="1TKVEi">
       <property role="IQ2ns" value="1877847507581325775" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -89,11 +95,6 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="additionalParam" />
       <ref role="20lvS9" node="1uupkCX4G4N" resolve="WildcardedParams" />
-    </node>
-    <node concept="1TJgyi" id="1Cft5JvJPAH" role="1TKVEl">
-      <property role="IQ2nx" value="1877847507581491629" />
-      <property role="TrG5h" value="additionalMethodClass" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="1uupkCX4G4E">

@@ -27,7 +27,7 @@
         <child id="1701909078719250740" name="sanitizations" index="EzahY" />
       </concept>
       <concept id="1701909078719250729" name="JDartTaintGen.structure.Signature" flags="ng" index="Ezahz">
-        <property id="1877847507581491629" name="additionalMethodClass" index="35G2RQ" />
+        <child id="5876091294711822986" name="additionalClass" index="0B2HG" />
         <child id="1701909078719250771" name="method" index="Ezagp" />
         <child id="1701909078719250769" name="class" index="Ezagr" />
         <child id="1701909078719250774" name="params" index="Ezags" />
@@ -115,19 +115,21 @@
         <property role="1Sx16I" value="xss" />
         <property role="36gfZE" value="true" />
         <node concept="Ezahw" id="1GU4JpzJB4V" role="Ezat5">
-          <node concept="Ezahz" id="1GU4JpzJB4W" role="EzaiY">
-            <property role="35G2RQ" value="java.io.PrintWriter" />
-            <node concept="EzahV" id="1GU4JpzJB4X" role="Ezagr">
+          <node concept="Ezahz" id="56c4uph5Rer" role="EzaiY">
+            <node concept="EzahV" id="56c4uph5Res" role="Ezagr">
               <property role="Ezu5L" value="javax.servlet.http.HttpServletResponse" />
             </node>
-            <node concept="EzahS" id="1GU4JpzJB4Y" role="Ezagp">
+            <node concept="EzahS" id="56c4uph5Ret" role="Ezagp">
               <property role="Eyxlm" value="getWriter" />
             </node>
-            <node concept="EzahS" id="1Cft5JvJNNe" role="35GUmk">
+            <node concept="EzahS" id="56c4uph5ReC" role="35GUmk">
               <property role="Ezu8O" value="true" />
             </node>
-            <node concept="EzahT" id="1Cft5JvJG0P" role="35HWsu">
+            <node concept="EzahT" id="56c4uph5ReD" role="35HWsu">
               <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahV" id="56c4uph5ReE" role="0B2HG">
+              <property role="Ezu5L" value="java.io.PrintWriter" />
             </node>
           </node>
         </node>

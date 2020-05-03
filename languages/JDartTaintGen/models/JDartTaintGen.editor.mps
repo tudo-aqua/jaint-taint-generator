@@ -284,15 +284,14 @@
           </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="1Cft5JvJQzG" role="3EZMnx">
-        <property role="1$x2rV" value="Return type of &quot;method&quot;" />
-        <ref role="1NtTu8" to="y4i8:1Cft5JvJPAH" resolve="additionalMethodClass" />
-        <node concept="pkWqt" id="1Cft5JvJQJt" role="pqm2j">
-          <node concept="3clFbS" id="1Cft5JvJQJu" role="2VODD2">
-            <node concept="3clFbF" id="1Cft5JvJQJR" role="3cqZAp">
-              <node concept="2OqwBi" id="1Cft5JvJQRd" role="3clFbG">
-                <node concept="pncrf" id="1Cft5JvJQJQ" role="2Oq$k0" />
-                <node concept="2qgKlT" id="1Cft5JvJQSt" role="2OqNvi">
+      <node concept="3F1sOY" id="56c4uph446g" role="3EZMnx">
+        <ref role="1NtTu8" to="y4i8:56c4uph43Ea" resolve="additionalClass" />
+        <node concept="pkWqt" id="56c4uph5Jia" role="pqm2j">
+          <node concept="3clFbS" id="56c4uph5Jib" role="2VODD2">
+            <node concept="3clFbF" id="56c4uph5Ji$" role="3cqZAp">
+              <node concept="2OqwBi" id="56c4uph5Jvg" role="3clFbG">
+                <node concept="pncrf" id="56c4uph5Jiz" role="2Oq$k0" />
+                <node concept="2qgKlT" id="56c4uph5JCi" role="2OqNvi">
                   <ref role="37wK5l" to="bppm:1Cft5JvJjUP" resolve="usesAdditionalMethod" />
                 </node>
               </node>
@@ -922,6 +921,23 @@
                   <node concept="7Obwk" id="1Cft5JvIg8Z" role="2Oq$k0" />
                   <node concept="3TrEf2" id="1Cft5JvIgoY" role="2OqNvi">
                     <ref role="3Tt5mk" to="y4i8:1Cft5JvIbd5" resolve="additionalParam" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="56c4uph44qI" role="3cqZAp">
+              <node concept="37vLTI" id="56c4uph44RO" role="3clFbG">
+                <node concept="2ShNRf" id="56c4uph44W1" role="37vLTx">
+                  <node concept="3zrR0B" id="56c4uph44S6" role="2ShVmc">
+                    <node concept="3Tqbb2" id="56c4uph44S7" role="3zrR0E">
+                      <ref role="ehGHo" to="y4i8:1uupkCX4G4L" resolve="WildcardedClass" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="56c4uph44yu" role="37vLTJ">
+                  <node concept="7Obwk" id="56c4uph44qG" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="56c4uph44FR" role="2OqNvi">
+                    <ref role="3Tt5mk" to="y4i8:56c4uph43Ea" resolve="additionalClass" />
                   </node>
                 </node>
               </node>
