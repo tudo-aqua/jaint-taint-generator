@@ -2,7 +2,7 @@
 <debug-info version="2">
   <root nodeRef="r:859e7aae-3790-4380-bce2-574b18947840(jdart-taint-generator.build)/7768624156564529761">
     <file name="jdart-taint-generator.xml">
-      <unit id="7768624156564529761" at="1,0,766,10" name="jdart-taint-generator.build.jdart-taint-generator" />
+      <unit id="7768624156564529761" at="1,0,528,10" name="jdart-taint-generator.build.jdart-taint-generator" />
     </file>
   </root>
 </debug-info>

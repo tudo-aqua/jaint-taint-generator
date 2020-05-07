@@ -9,7 +9,6 @@
       <sourceRoot location="jpf-jdart.jar" />
       <sourceRoot location="jpf.jar" />
     </modelRoot>
-    <modelRoot contentPath="C:/Users/till9/MPSProjects/jdart-taint-generator/languages/ExtendedParams" type="default" />
   </models>
   <facets>
     <facet type="java">
@@ -67,7 +66,6 @@
   </sourcePath>
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">db68926e-6626-4b52-a25b-d25b19290b9a(de.tudo.cs.ls14.aqua.jdart.param)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:db68926e-6626-4b52-a25b-d25b19290b9a:ExtendedParams" version="0" />
