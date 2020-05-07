@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:2c221b64-77e1-4f46-a0c9-590c5fed65c1(JDartTaintGen.editor)">
+<model ref="r:2c221b64-77e1-4f46-a0c9-590c5fed65c1(de.tudo.cs.ls14.aqua.jdart.gen.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="y4i8" ref="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(JDartTaintGen.structure)" implicit="true" />
-    <import index="bppm" ref="r:6a72bfa8-7fb2-4834-97ef-5a46a1839730(JDartTaintGen.behavior)" implicit="true" />
+    <import index="bppm" ref="r:6a72bfa8-7fb2-4834-97ef-5a46a1839730(de.tudo.cs.ls14.aqua.jdart.gen.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>

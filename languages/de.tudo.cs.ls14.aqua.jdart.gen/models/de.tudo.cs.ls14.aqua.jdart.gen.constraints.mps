@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4abc25ac-8602-41de-8930-ea483cf9a1ea(JDartTaintGen.constraints)">
+<model ref="r:4abc25ac-8602-41de-8930-ea483cf9a1ea(de.tudo.cs.ls14.aqua.jdart.gen.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

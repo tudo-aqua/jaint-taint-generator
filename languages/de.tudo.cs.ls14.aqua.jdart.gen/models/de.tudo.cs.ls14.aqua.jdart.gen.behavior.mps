@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6a72bfa8-7fb2-4834-97ef-5a46a1839730(JDartTaintGen.behavior)">
+<model ref="r:6a72bfa8-7fb2-4834-97ef-5a46a1839730(de.tudo.cs.ls14.aqua.jdart.gen.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
