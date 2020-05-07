@@ -9,18 +9,18 @@
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="6z46" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.jvm(JDartTaintGen/)" />
-    <import index="6nxi" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.constraints.types(JDartTaintGen/)" />
+    <import index="6nxi" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.constraints.types(de.tudo.cs.ls14.aqua.jdart.gen/)" />
     <import index="lqde" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.jdart.taint(JDartTaintGen/)" />
-    <import index="wpl3" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.constraints.api(JDartTaintGen/)" />
-    <import index="rlgy" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.vm(JDartTaintGen/)" />
+    <import index="wpl3" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.constraints.api(de.tudo.cs.ls14.aqua.jdart.gen/)" />
+    <import index="rlgy" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.vm(de.tudo.cs.ls14.aqua.jdart.gen/)" />
     <import index="dt03" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf(JDartTaintGen/)" />
     <import index="w19w" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.jdart.objects(JDartTaintGen/)" />
-    <import index="nw80" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.jdart.security(JDartTaintGen/)" />
+    <import index="nw80" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.jdart.security(de.tudo.cs.ls14.aqua.jdart.gen/)" />
     <import index="y4i8" ref="r:8ab6e4c0-ef19-42db-9b00-4f0b467f6a40(de.tudo.cs.ls14.aqua.jdart.gen.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="bppm" ref="r:6a72bfa8-7fb2-4834-97ef-5a46a1839730(de.tudo.cs.ls14.aqua.jdart.gen.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="brp9" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.util(JDartTaintGen/)" implicit="true" />
+    <import index="brp9" ref="d29ed155-5a69-438b-817d-70e96ceef79e/java:gov.nasa.jpf.util(de.tudo.cs.ls14.aqua.jdart.gen/)" implicit="true" />
     <import index="1ctc" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.stream(JDK/)" implicit="true" />
   </imports>
   <registry>
