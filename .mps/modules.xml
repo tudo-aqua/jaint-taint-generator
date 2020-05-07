@@ -2,9 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.tudo.cs.ls14.aqua.jdart.eparams/de.tudo.cs.ls14.aqua.jdart.eparams.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.tudo.cs.ls14.aqua.jdart.gen/de.tudo.cs.ls14.aqua.jdart.gen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.tudo.cs.ls14.aqua.jdart.gen/runtime/de.tudo.cs.ls14.aqua.jdart.gen.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.tudo.cs.ls14.aqua.jdart.gen/sandbox/de.tudo.cs.ls14.aqua.jdart.gen.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.tudo.cs.ls14.aqua.jdart.eparams.sandbox/de.tudo.cs.ls14.aqua.jdart.eparams.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/jdart-taint-generator.build/jdart-taint-generator.build.msd" folder="" />
     </projectModules>
   </component>

@@ -2,7 +2,7 @@
 <model ref="r:116882e3-5699-4bfa-a11b-e17a64ea565a(gov.nasa.jpf.jdart.taint)">
   <persistence version="9" />
   <languages>
-    <use id="d29ed155-5a69-438b-817d-70e96ceef79e" name="JDartTaintGen" version="0" />
+    <use id="d29ed155-5a69-438b-817d-70e96ceef79e" name="de.tudo.cs.ls14.aqua.jdart.gen" version="0" />
   </languages>
   <imports />
   <registry>
@@ -11,22 +11,22 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
-    <language id="d29ed155-5a69-438b-817d-70e96ceef79e" name="JDartTaintGen">
-      <concept id="2254544058171606285" name="JDartTaintGen.structure.TaintGen" flags="ng" index="EwfFH">
+    <language id="d29ed155-5a69-438b-817d-70e96ceef79e" name="de.tudo.cs.ls14.aqua.jdart.gen">
+      <concept id="2254544058171606285" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.TaintGen" flags="ng" index="EwfFH">
         <child id="2254544058171606286" name="taints" index="EwfFI" />
       </concept>
-      <concept id="1701909078719250730" name="JDartTaintGen.structure.Signatures" flags="ng" index="Ezahw">
+      <concept id="1701909078719250730" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Signatures" flags="ng" index="Ezahw">
         <child id="1701909078719250932" name="signatures" index="EzaiY" />
       </concept>
-      <concept id="1701909078719250731" name="JDartTaintGen.structure.Sink" flags="ng" index="Ezahx">
+      <concept id="1701909078719250731" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Sink" flags="ng" index="Ezahx">
         <property id="7768624156564737384" name="extendTaintOnParametersReached" index="36gfZE" />
         <property id="1961901437117924184" name="variable" index="1Sx16I" />
         <child id="1701909078719250959" name="sinks" index="Ezat5" />
       </concept>
-      <concept id="1701909078719250728" name="JDartTaintGen.structure.Sanitization" flags="ng" index="Ezahy">
+      <concept id="1701909078719250728" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Sanitization" flags="ng" index="Ezahy">
         <child id="1701909078719250740" name="sanitizations" index="EzahY" />
       </concept>
-      <concept id="1701909078719250729" name="JDartTaintGen.structure.Signature" flags="ng" index="Ezahz">
+      <concept id="1701909078719250729" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Signature" flags="ng" index="Ezahz">
         <child id="5876091294711822986" name="additionalClass" index="0B2HG" />
         <child id="1701909078719250771" name="method" index="Ezagp" />
         <child id="1701909078719250769" name="class" index="Ezagr" />
@@ -34,26 +34,26 @@
         <child id="1877847507581325775" name="additionalMethod" index="35GUmk" />
         <child id="1877847507581055813" name="additionalParam" index="35HWsu" />
       </concept>
-      <concept id="1701909078719250732" name="JDartTaintGen.structure.Source" flags="ng" index="EzahA">
+      <concept id="1701909078719250732" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Source" flags="ng" index="EzahA">
         <child id="1701909078719300548" name="signatures" index="Ezuqe" />
       </concept>
-      <concept id="1701909078719250733" name="JDartTaintGen.structure.TaintAnalysis" flags="ng" index="EzahB">
+      <concept id="1701909078719250733" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.TaintAnalysis" flags="ng" index="EzahB">
         <child id="1701909078719300602" name="sink" index="EzuqK" />
         <child id="1701909078719300599" name="sanitization" index="EzuqX" />
         <child id="1701909078719300597" name="source" index="EzuqZ" />
       </concept>
-      <concept id="1701909078719250738" name="JDartTaintGen.structure.WildcardedMethod" flags="ng" index="EzahS">
+      <concept id="1701909078719250738" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedMethod" flags="ng" index="EzahS">
         <property id="1701909078719361052" name="method" index="Eyxlm" />
         <property id="1701909078719459256" name="useConstructor" index="EySFM" />
       </concept>
-      <concept id="1701909078719250739" name="JDartTaintGen.structure.WildcardedParams" flags="ng" index="EzahT">
+      <concept id="1701909078719250739" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedParams" flags="ng" index="EzahT">
         <property id="1701909078719367106" name="params" index="EyIa8" />
       </concept>
-      <concept id="1701909078719250736" name="JDartTaintGen.structure.WildcardedElement" flags="ng" index="EzahU">
+      <concept id="1701909078719250736" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedElement" flags="ng" index="EzahU">
         <property id="1701909078719301499" name="usePostWildcard" index="Ezu8L" />
         <property id="1701909078719301502" name="useGeneralWildcard" index="Ezu8O" />
       </concept>
-      <concept id="1701909078719250737" name="JDartTaintGen.structure.WildcardedClass" flags="ng" index="EzahV">
+      <concept id="1701909078719250737" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedClass" flags="ng" index="EzahV">
         <property id="1701909078719300667" name="class" index="Ezu5L" />
       </concept>
     </language>
