@@ -8,15 +8,15 @@ generate:
     artifacts:
         when: on_success
         paths: 
-            - /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/sandbox/source_gen
-            - /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/runtime/source_gen
+            - /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/sandbox/source_gen
+            - /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/runtime/source_gen
 
 build:
     stage: build
     script:
         - cd /builds/aqua/jdart-taint-generator/
-        - mkdir -p /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/runtime/source_gen
-        - mkdir -p /builds/aqua/jdart-taint-generator/languages/JDartTaintGen/sandbox/source_gen
+        - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/runtime/source_gen
+        - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/sandbox/source_gen
         - ant -Dmps_home=/work/mps_home
     artifacts:
         when: on_success
