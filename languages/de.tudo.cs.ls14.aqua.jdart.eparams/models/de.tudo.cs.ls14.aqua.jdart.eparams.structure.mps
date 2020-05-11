@@ -17,6 +17,7 @@
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -25,6 +26,10 @@
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -123,14 +128,37 @@
     <node concept="1TJgyj" id="6OCoSdVFIU5" role="1TKVEi">
       <property role="IQ2ns" value="7865646165569498757" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variable" />
-      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+      <property role="20kJfa" value="variableMethod" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="59rwM0eLH_W" resolve="VariableMethodDeclaration" />
     </node>
     <node concept="1TJgyj" id="6OCoSdVFIU6" role="1TKVEi">
       <property role="IQ2ns" value="7865646165569498758" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="59rwM0eLH_W">
+    <property role="EcuMT" value="5934481107700865404" />
+    <property role="TrG5h" value="VariableMethodDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="59rwM0eLH_X" role="1TKVEl">
+      <property role="IQ2nx" value="5934481107700865405" />
+      <property role="TrG5h" value="method" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="59rwM0eLHAs" role="1TKVEl">
+      <property role="IQ2nx" value="5934481107700865436" />
+      <property role="TrG5h" value="useMethod" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="59rwM0eLH_Z" role="1TKVEi">
+      <property role="IQ2ns" value="5934481107700865407" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variable" />
+      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     </node>
   </node>
 </model>
