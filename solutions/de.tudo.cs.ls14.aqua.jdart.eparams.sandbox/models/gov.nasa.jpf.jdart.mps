@@ -10,12 +10,8 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
-      </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
     </language>
@@ -40,28 +36,17 @@
     </language>
   </registry>
   <node concept="m_aDU" id="6OCoSdVJeJi">
-    <node concept="mxCO7" id="59rwM0eNVdM" role="m_aDT">
-      <node concept="1sBlDs" id="59rwM0eNVdN" role="mxCO6">
-        <node concept="3cpWsn" id="59rwM0eNVdT" role="1sBlDv">
-          <property role="TrG5h" value="t" />
-          <node concept="mxCO1" id="59rwM0eNVe1" role="1tU5fm">
-            <property role="TrG5h" value="Test" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbT" id="59rwM0eNVee" role="mxCO5">
-        <property role="3clFbU" value="true" />
-      </node>
-    </node>
     <node concept="mxCO7" id="59rwM0eR6OR" role="m_aDT">
       <node concept="1sBlDs" id="59rwM0eR6OT" role="mxCO6">
         <node concept="3cpWsn" id="59rwM0eRat1" role="1sBlDv">
           <property role="TrG5h" value="test" />
-          <node concept="10Oyi0" id="59rwM0eRat9" role="1tU5fm" />
+          <node concept="mxCO1" id="34N2ZoReLdJ" role="1tU5fm">
+            <property role="TrG5h" value="Test" />
+          </node>
         </node>
       </node>
-      <node concept="Xl_RD" id="59rwM0eRati" role="mxCO5">
-        <property role="Xl_RC" value="er" />
+      <node concept="Xl_RD" id="34N2ZoReRZ3" role="mxCO5">
+        <property role="Xl_RC" value="" />
       </node>
     </node>
   </node>
