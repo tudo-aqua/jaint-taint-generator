@@ -7,9 +7,7 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -45,9 +43,7 @@
           </node>
         </node>
       </node>
-      <node concept="Xl_RD" id="34N2ZoReRZ3" role="mxCO5">
-        <property role="Xl_RC" value="" />
-      </node>
+      <node concept="Xl_RD" id="34N2ZoReT2r" role="mxCO5" />
     </node>
   </node>
 </model>
