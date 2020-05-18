@@ -19,6 +19,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -45,22 +46,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="6OCoSdVFGzu">
-    <property role="EcuMT" value="7865646165569489118" />
-    <property role="TrG5h" value="ExtendedParameter" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="6OCoSdVFGzE">
     <property role="EcuMT" value="7865646165569489130" />
     <property role="TrG5h" value="EExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5r4pvgc9Y4y" role="PzmwI">
+      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6OCoSdVFGzG">
     <property role="EcuMT" value="7865646165569489132" />
     <property role="TrG5h" value="AndExpression" />
-    <property role="34LRSv" value="and" />
+    <property role="34LRSv" value="&lt;left&gt; and &lt;right&gt;" />
     <ref role="1TJDcQ" node="6OCoSdVFGzH" resolve="BinaryExpression" />
   </node>
   <node concept="1TIwiD" id="6OCoSdVFGzH">
@@ -84,15 +82,19 @@
   <node concept="1TIwiD" id="6OCoSdVFG$J">
     <property role="EcuMT" value="7865646165569489199" />
     <property role="TrG5h" value="OrExpression" />
-    <property role="34LRSv" value="or" />
+    <property role="34LRSv" value="&lt;left&gt; or &lt;right&gt;" />
     <ref role="1TJDcQ" node="6OCoSdVFGzH" resolve="BinaryExpression" />
   </node>
   <node concept="1TIwiD" id="6OCoSdVFIU2">
     <property role="EcuMT" value="7865646165569498754" />
     <property role="TrG5h" value="NamedClass" />
+    <property role="34LRSv" value="&lt;named class&gt;" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="PrWs8" id="6OCoSdVFIU3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3oHsQhDcboD" role="PzmwI">
+      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6OCoSdVFIU4">
@@ -143,6 +145,7 @@
   <node concept="1TIwiD" id="59rwM0eLH_W">
     <property role="EcuMT" value="5934481107700865404" />
     <property role="TrG5h" value="VariableMethodDeclaration" />
+    <property role="34LRSv" value="&lt;variable&gt;.&lt;?method_call&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="59rwM0eLH_X" role="1TKVEl">
       <property role="IQ2nx" value="5934481107700865405" />
@@ -160,6 +163,13 @@
       <property role="20kJfa" value="variable" />
       <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     </node>
+    <node concept="PrWs8" id="3oHsQhDc2OE" role="PzmwI">
+      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5r4pvgc9TMw">
+    <property role="TrG5h" value="IStringRepresentableConcept" />
+    <property role="EcuMT" value="6252234281547439264" />
   </node>
 </model>
 
