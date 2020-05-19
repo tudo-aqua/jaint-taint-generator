@@ -33,6 +33,8 @@
         <child id="7865646165570406906" name="exps" index="m_aDT" />
       </concept>
       <concept id="5934481107700865404" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.VariableMethodDeclaration" flags="ng" index="1sBlDs">
+        <property id="5934481107700865405" name="method" index="1sBlDt" />
+        <property id="5934481107700865436" name="useMethod" index="1sBlEW" />
         <child id="5934481107700865407" name="variable" index="1sBlDv" />
       </concept>
       <concept id="5934481107700403357" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.HasNotValueComparator" flags="ng" index="1sT4YX" />
@@ -62,6 +64,8 @@
     <node concept="mxEHJ" id="3oHsQhDcM1g" role="m_aDT">
       <node concept="mxCO7" id="3oHsQhDcM1o" role="mxEHH">
         <node concept="1sBlDs" id="3oHsQhDcM1p" role="mxCO6">
+          <property role="1sBlEW" value="true" />
+          <property role="1sBlDt" value="getSecure" />
           <node concept="3cpWsn" id="3oHsQhDcM1w" role="1sBlDv">
             <property role="TrG5h" value="x" />
             <node concept="10Oyi0" id="3oHsQhDcM1A" role="1tU5fm" />
@@ -82,6 +86,19 @@
           <property role="3clFbU" value="true" />
         </node>
       </node>
+    </node>
+    <node concept="mxCO7" id="HJ59WwQSwe" role="m_aDT">
+      <node concept="1sBlDs" id="HJ59WwQSwg" role="mxCO6">
+        <property role="1sBlEW" value="true" />
+        <property role="1sBlDt" value="getSecure" />
+        <node concept="3cpWsn" id="HJ59WwQSwi" role="1sBlDv">
+          <property role="TrG5h" value="c" />
+          <node concept="mxCO1" id="HJ59WwQSyf" role="1tU5fm">
+            <property role="TrG5h" value="Cookie" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbT" id="HJ59WwQSyt" role="mxCO5" />
     </node>
   </node>
 </model>

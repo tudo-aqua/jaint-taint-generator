@@ -146,7 +146,7 @@
   <node concept="1TIwiD" id="59rwM0eLH_W">
     <property role="EcuMT" value="5934481107700865404" />
     <property role="TrG5h" value="VariableMethodDeclaration" />
-    <property role="34LRSv" value="&lt;variable&gt;.&lt;?method_call&gt;" />
+    <property role="34LRSv" value="&lt;type&gt; &lt;name&gt; : &lt;name&gt;.&lt;?method_call&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="59rwM0eLH_X" role="1TKVEl">
       <property role="IQ2nx" value="5934481107700865405" />
@@ -162,7 +162,8 @@
       <property role="IQ2ns" value="5934481107700865407" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="variable" />
-      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpee:fzcpWvJ" resolve="LocalVariableDeclaration" />
     </node>
     <node concept="PrWs8" id="2j9p9eWKe3C" role="PzmwI">
       <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />

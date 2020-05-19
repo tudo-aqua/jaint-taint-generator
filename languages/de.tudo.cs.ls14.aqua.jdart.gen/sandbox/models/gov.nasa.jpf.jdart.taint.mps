@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d29ed155-5a69-438b-817d-70e96ceef79e" name="de.tudo.cs.ls14.aqua.jdart.gen" version="0" />
+    <use id="011f162d-421c-45ec-b93e-e9fe75ca98e2" name="de.tudo.cs.ls14.aqua.jdart.eparams" version="0" />
   </languages>
   <imports />
   <registry>
