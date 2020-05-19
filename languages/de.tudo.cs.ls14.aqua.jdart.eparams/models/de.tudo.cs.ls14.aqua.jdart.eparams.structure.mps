@@ -4,11 +4,13 @@
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f" name="de.tudo.cs.ls14.aqua.qol" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="de8f" ref="r:58089d9b-d53e-4261-a976-57be6b2dca0b(de.tudo.cs.ls14.aqua.qol.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -19,7 +21,6 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -51,8 +52,8 @@
     <property role="TrG5h" value="EExpression" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5r4pvgc9Y4y" role="PzmwI">
-      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    <node concept="PrWs8" id="2j9p9eWJZpu" role="PzmwI">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6OCoSdVFGzG">
@@ -93,8 +94,8 @@
     <node concept="PrWs8" id="6OCoSdVFIU3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="3oHsQhDcboD" role="PzmwI">
-      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    <node concept="PrWs8" id="2j9p9eWKcqd" role="PzmwI">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="6OCoSdVFIU4">
@@ -163,13 +164,9 @@
       <property role="20kJfa" value="variable" />
       <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     </node>
-    <node concept="PrWs8" id="3oHsQhDc2OE" role="PzmwI">
-      <ref role="PrY4T" node="5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    <node concept="PrWs8" id="2j9p9eWKe3C" role="PzmwI">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="5r4pvgc9TMw">
-    <property role="TrG5h" value="IStringRepresentableConcept" />
-    <property role="EcuMT" value="6252234281547439264" />
   </node>
 </model>
 

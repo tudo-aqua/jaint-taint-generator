@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="naov" ref="r:b9f64492-22cd-41bc-a2ad-039e7d32646f(de.tudo.cs.ls14.aqua.jdart.eparams.structure)" />
-    <import index="8wan" ref="r:6102e698-412b-4f16-9f4b-0cbb9f20724a(de.tudo.cs.ls14.aqua.jdart.eparams.behavior)" implicit="true" />
+    <import index="e1a4" ref="r:f4ad2def-c654-4bee-a409-946f41e73692(de.tudo.cs.ls14.aqua.qol.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -127,8 +127,8 @@
                     <node concept="3cpWs6" id="5r4pvgcd3qw" role="3cqZAp">
                       <node concept="2OqwBi" id="5r4pvgcd3C0" role="3cqZAk">
                         <node concept="30H73N" id="5r4pvgcd3r8" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="5r4pvgcd3QO" role="2OqNvi">
-                          <ref role="37wK5l" to="8wan:5r4pvgc9TWQ" resolve="getStringRepresentation" />
+                        <node concept="2qgKlT" id="2j9p9eWKrQD" role="2OqNvi">
+                          <ref role="37wK5l" to="e1a4:5r4pvgc9TWQ" resolve="getStringRepresentation" />
                         </node>
                       </node>
                     </node>
