@@ -9,8 +9,8 @@
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="de8f" ref="r:58089d9b-d53e-4261-a976-57be6b2dca0b(de.tudo.cs.ls14.aqua.qol.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="de8f" ref="r:58089d9b-d53e-4261-a976-57be6b2dca0b(de.tudo.cs.ls14.aqua.qol.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
