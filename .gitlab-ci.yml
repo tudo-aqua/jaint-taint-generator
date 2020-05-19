@@ -16,7 +16,7 @@ build:
     script:
         - cd /builds/aqua/jdart-taint-generator/
         - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.qol/source_gen
-        - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.eparams/source_gen
+        - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.eparams/source_gen
         - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/runtime/source_gen
         - mkdir -p /builds/aqua/jdart-taint-generator/languages/de.tudo.cs.ls14.aqua.jdart.gen/sandbox/source_gen
         - ant -Dmps_home=/work/mps_home
