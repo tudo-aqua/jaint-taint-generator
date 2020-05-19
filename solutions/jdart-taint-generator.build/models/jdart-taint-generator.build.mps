@@ -50,6 +50,7 @@
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
+        <child id="3542413272732620719" name="aspects" index="1hWBAP" />
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
@@ -75,6 +76,9 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
+      </concept>
       <concept id="6592112598314586625" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginGroup" flags="ng" index="m$f5U">
         <reference id="6592112598314586626" name="group" index="m$f5T" />
       </concept>
@@ -107,12 +111,18 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
         <property id="2889113830911481881" name="deployFolderName" index="3ZfqAx" />
         <child id="8137134783396676835" name="location" index="1HemKq" />
+      </concept>
+      <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
+        <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
       <concept id="3189788309731981027" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleSolutionRuntime" flags="ng" index="1E0d5M">
         <reference id="3189788309731981028" name="solution" index="1E0d5P" />
@@ -199,6 +209,201 @@
     </node>
     <node concept="2G$12M" id="6JfGCaHz29V" role="3989C9">
       <property role="TrG5h" value="jdart-taint-generator" />
+      <node concept="1E1JtD" id="2j9p9eWT2HY" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.tudo.cs.ls14.aqua.qol" />
+        <property role="3LESm3" value="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f" />
+        <node concept="55IIr" id="2j9p9eWT2I1" role="3LF7KH">
+          <node concept="2Ry0Ak" id="2j9p9eWT2JJ" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2j9p9eWT2JO" role="2Ry0An">
+              <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.qol" />
+              <node concept="2Ry0Ak" id="2j9p9eWT2JT" role="2Ry0An">
+                <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.qol.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2K5" role="3bR37C">
+          <node concept="3bR9La" id="2j9p9eWT2K6" role="1SiIV1">
+            <ref role="3bR37D" node="2j9p9eWT2Dd" resolve="de.tudo.cs.ls14.aqua.jdart.eparams" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2j9p9eWT2Kb" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2j9p9eWT2Kc" role="1HemKq">
+            <node concept="55IIr" id="2j9p9eWT2K7" role="3LXTmr">
+              <node concept="2Ry0Ak" id="2j9p9eWT2K8" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2j9p9eWT2K9" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.qol" />
+                  <node concept="2Ry0Ak" id="2j9p9eWT2Ka" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2j9p9eWT2Kd" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1yeLz9" id="2j9p9eWT2Ke" role="1TViLv">
+          <property role="TrG5h" value="de.tudo.cs.ls14.aqua.qol#01" />
+          <property role="3LESm3" value="d1c1bc49-9bb5-4701-a637-fada6bd3e0eb" />
+          <node concept="1BupzO" id="2j9p9eWT2Kk" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="2j9p9eWT2Kl" role="1HemKq">
+              <node concept="55IIr" id="2j9p9eWT2Kf" role="3LXTmr">
+                <node concept="2Ry0Ak" id="2j9p9eWT2Kg" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="2j9p9eWT2Kh" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.qol" />
+                    <node concept="2Ry0Ak" id="2j9p9eWT2Ki" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="2j9p9eWT2Kj" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="2j9p9eWT2Km" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2j9p9eWT2Lx" role="3bR31x">
+          <node concept="3LXTmp" id="2j9p9eWT2Ly" role="3rtmxm">
+            <node concept="55IIr" id="2j9p9eWT2Lz" role="3LXTmr">
+              <node concept="2Ry0Ak" id="2j9p9eWT2L$" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2j9p9eWT2L_" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.qol" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2j9p9eWT2LB" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="2j9p9eWT2Dd" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.tudo.cs.ls14.aqua.jdart.eparams" />
+        <property role="3LESm3" value="011f162d-421c-45ec-b93e-e9fe75ca98e2" />
+        <node concept="55IIr" id="2j9p9eWT2Dg" role="3LF7KH">
+          <node concept="2Ry0Ak" id="2j9p9eWT2E_" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2j9p9eWT2EE" role="2Ry0An">
+              <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.eparams" />
+              <node concept="2Ry0Ak" id="2j9p9eWT2EJ" role="2Ry0An">
+                <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.eparams.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2EV" role="3bR37C">
+          <node concept="3bR9La" id="2j9p9eWT2EW" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2EX" role="3bR37C">
+          <node concept="3bR9La" id="2j9p9eWT2EY" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="2j9p9eWT2F3" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="2j9p9eWT2F4" role="1HemKq">
+            <node concept="55IIr" id="2j9p9eWT2EZ" role="3LXTmr">
+              <node concept="2Ry0Ak" id="2j9p9eWT2F0" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2j9p9eWT2F1" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.eparams" />
+                  <node concept="2Ry0Ak" id="2j9p9eWT2F2" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2j9p9eWT2F5" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2F6" role="3bR37C">
+          <node concept="1Busua" id="2j9p9eWT2F7" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="2j9p9eWT2F8" role="1TViLv">
+          <property role="TrG5h" value="de.tudo.cs.ls14.aqua.jdart.eparams#01" />
+          <property role="3LESm3" value="10ef2876-f73a-499d-accd-1fa697a27265" />
+          <node concept="1BupzO" id="2j9p9eWT2Fe" role="3bR31x">
+            <property role="3ZfqAx" value="generator/templates" />
+            <property role="1Hdu6h" value="true" />
+            <property role="1HemKv" value="true" />
+            <node concept="3LXTmp" id="2j9p9eWT2Ff" role="1HemKq">
+              <node concept="55IIr" id="2j9p9eWT2F9" role="3LXTmr">
+                <node concept="2Ry0Ak" id="2j9p9eWT2Fa" role="iGT6I">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="2j9p9eWT2Fb" role="2Ry0An">
+                    <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.eparams" />
+                    <node concept="2Ry0Ak" id="2j9p9eWT2Fc" role="2Ry0An">
+                      <property role="2Ry0Am" value="generator" />
+                      <node concept="2Ry0Ak" id="2j9p9eWT2Fd" role="2Ry0An">
+                        <property role="2Ry0Am" value="templates" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3qWCbU" id="2j9p9eWT2Fg" role="3LXTna">
+                <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+              </node>
+            </node>
+          </node>
+          <node concept="1SiIV0" id="2j9p9eWT2Mp" role="3bR37C">
+            <node concept="3bR9La" id="2j9p9eWT2Mq" role="1SiIV1">
+              <ref role="3bR37D" node="2j9p9eWT2HY" resolve="de.tudo.cs.ls14.aqua.qol" />
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2Mh" role="3bR37C">
+          <node concept="3bR9La" id="2j9p9eWT2Mi" role="1SiIV1">
+            <ref role="3bR37D" node="2j9p9eWT2HY" resolve="de.tudo.cs.ls14.aqua.qol" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2Mn" role="3bR37C">
+          <node concept="1Busua" id="2j9p9eWT2Mo" role="1SiIV1">
+            <ref role="1Busuk" node="2j9p9eWT2HY" resolve="de.tudo.cs.ls14.aqua.qol" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2j9p9eWT2MX" role="3bR31x">
+          <node concept="3LXTmp" id="2j9p9eWT2MY" role="3rtmxm">
+            <node concept="55IIr" id="2j9p9eWT2MZ" role="3LXTmr">
+              <node concept="2Ry0Ak" id="2j9p9eWT2N0" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2j9p9eWT2N1" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.eparams" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2j9p9eWT2N3" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="6JfGCaHz29H" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="de.tudo.cs.ls14.aqua.jdart.gen.sandbox" />
@@ -432,7 +637,35 @@
         <node concept="1E0d5M" id="6JfGCaHz2aZ" role="1E1XAP">
           <ref role="1E0d5P" node="6JfGCaHz29O" resolve="de.tudo.cs.ls14.aqua.jdart.gen.runtime" />
         </node>
+        <node concept="1SiIV0" id="2j9p9eWT2Kw" role="3bR37C">
+          <node concept="3bR9La" id="2j9p9eWT2Kx" role="1SiIV1">
+            <ref role="3bR37D" node="2j9p9eWT2Dd" resolve="de.tudo.cs.ls14.aqua.jdart.eparams" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2j9p9eWT2M$" role="3bR37C">
+          <node concept="1Busua" id="2j9p9eWT2M_" role="1SiIV1">
+            <ref role="1Busuk" node="2j9p9eWT2HY" resolve="de.tudo.cs.ls14.aqua.qol" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="2j9p9eWT2Nq" role="3bR31x">
+          <node concept="3LXTmp" id="2j9p9eWT2Nr" role="3rtmxm">
+            <node concept="55IIr" id="2j9p9eWT2Ns" role="3LXTmr">
+              <node concept="2Ry0Ak" id="2j9p9eWT2Nt" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="2j9p9eWT2Nu" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.tudo.cs.ls14.aqua.jdart.gen" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="2j9p9eWT2Nw" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
       </node>
+    </node>
+    <node concept="2igEWh" id="2j9p9eWU6Er" role="1hWBAP">
+      <property role="2igJW4" value="true" />
     </node>
   </node>
 </model>

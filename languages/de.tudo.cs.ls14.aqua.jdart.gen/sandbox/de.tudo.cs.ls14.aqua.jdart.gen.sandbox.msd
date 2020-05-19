@@ -13,6 +13,7 @@
   <sourcePath />
   <languageVersions>
     <language slang="l:d29ed155-5a69-438b-817d-70e96ceef79e:de.tudo.cs.ls14.aqua.jdart.gen" version="0" />
+    <language slang="l:fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f:de.tudo.cs.ls14.aqua.qol" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>

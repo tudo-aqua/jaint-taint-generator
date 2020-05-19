@@ -57,6 +57,7 @@
         <module reference="d29ed155-5a69-438b-817d-70e96ceef79e(de.tudo.cs.ls14.aqua.jdart.gen)" version="0" />
         <module reference="1d49c9ae-f60c-4ded-b714-7c216dedcbc6(de.tudo.cs.ls14.aqua.jdart.gen#01)" version="0" />
         <module reference="29fa8e2a-1d49-4b97-bfb3-61ca7c2a679a(de.tudo.cs.ls14.aqua.jdart.gen.runtime)" version="0" />
+        <module reference="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f(de.tudo.cs.ls14.aqua.qol)" version="0" />
         <module reference="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
@@ -71,9 +72,11 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false" scope="generate-into">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
     <dependency reexport="false" scope="generate-into">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
+    <dependency reexport="false">011f162d-421c-45ec-b93e-e9fe75ca98e2(de.tudo.cs.ls14.aqua.jdart.eparams)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:db68926e-6626-4b52-a25b-d25b19290b9a:ExtendedParams" version="0" />
+    <language slang="l:fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f:de.tudo.cs.ls14.aqua.qol" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -95,6 +98,7 @@
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:f4ad079d-bc71-4ffb-9600-9328705cf998:jetbrains.mps.lang.descriptor" version="0" />
     <language slang="l:18bc6592-03a6-4e29-a83a-7ff23bde13ba:jetbrains.mps.lang.editor" version="14" />
+    <language slang="l:b401a680-8325-4110-8fd3-84331ff25bef:jetbrains.mps.lang.generator" version="3" />
     <language slang="l:d7a92d38-f7db-40d0-8431-763b0c3c9f20:jetbrains.mps.lang.intentions" version="1" />
     <language slang="l:ad93155d-79b2-4759-b10c-55123e763903:jetbrains.mps.lang.messages" version="0" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
@@ -115,8 +119,10 @@
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
+    <module reference="011f162d-421c-45ec-b93e-e9fe75ca98e2(de.tudo.cs.ls14.aqua.jdart.eparams)" version="0" />
     <module reference="d29ed155-5a69-438b-817d-70e96ceef79e(de.tudo.cs.ls14.aqua.jdart.gen)" version="0" />
     <module reference="db68926e-6626-4b52-a25b-d25b19290b9a(de.tudo.cs.ls14.aqua.jdart.param)" version="0" />
+    <module reference="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f(de.tudo.cs.ls14.aqua.qol)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
     <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
     <module reference="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" version="0" />
@@ -130,6 +136,8 @@
   <runtime>
     <dependency reexport="false">29fa8e2a-1d49-4b97-bfb3-61ca7c2a679a(de.tudo.cs.ls14.aqua.jdart.gen.runtime)</dependency>
   </runtime>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f(de.tudo.cs.ls14.aqua.qol)</extendedLanguage>
+  </extendedLanguages>
 </language>
 

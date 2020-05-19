@@ -3,9 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f" name="de.tudo.cs.ls14.aqua.qol" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="naov" ref="r:b9f64492-22cd-41bc-a2ad-039e7d32646f(de.tudo.cs.ls14.aqua.jdart.eparams.structure)" />
+    <import index="de8f" ref="r:58089d9b-d53e-4261-a976-57be6b2dca0b(de.tudo.cs.ls14.aqua.qol.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -16,6 +19,9 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -76,7 +82,7 @@
       <property role="IQ2ns" value="1701909078719250774" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="params" />
-      <ref role="20lvS9" node="1uupkCX4G4N" resolve="WildcardedParams" />
+      <ref role="20lvS9" node="5r4pvgc4_HF" resolve="IParams" />
     </node>
     <node concept="1TJgyj" id="56c4uph43Ea" role="1TKVEi">
       <property role="IQ2ns" value="5876091294711822986" />
@@ -202,6 +208,9 @@
       <property role="TrG5h" value="class" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="2j9p9eWOBrH" role="PzmwI">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1uupkCX4G4M">
     <property role="EcuMT" value="1701909078719250738" />
@@ -217,15 +226,22 @@
       <property role="TrG5h" value="useConstructor" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="2j9p9eWO_Mp" role="PzmwI">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1uupkCX4G4N">
     <property role="EcuMT" value="1701909078719250739" />
     <property role="TrG5h" value="WildcardedParams" />
+    <property role="34LRSv" value="&lt;simple params&gt;" />
     <ref role="1TJDcQ" node="1uupkCX4G4K" resolve="WildcardedElement" />
     <node concept="1TJgyi" id="1uupkCX58v2" role="1TKVEl">
       <property role="IQ2nx" value="1701909078719367106" />
       <property role="TrG5h" value="params" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="5r4pvgc4_HG" role="PzmwI">
+      <ref role="PrY4T" node="5r4pvgc4_HF" resolve="IParams" />
     </node>
   </node>
   <node concept="1TIwiD" id="1X9JY0PMkkd">
@@ -239,6 +255,28 @@
       <property role="20kJfa" value="taints" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="1uupkCX4G4H" resolve="TaintAnalysis" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5r4pvgc4_Ha">
+    <property role="EcuMT" value="6252234281546046282" />
+    <property role="TrG5h" value="ExtendedParams" />
+    <property role="34LRSv" value="&lt;extended params&gt;" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5r4pvgc4_HI" role="PzmwI">
+      <ref role="PrY4T" node="5r4pvgc4_HF" resolve="IParams" />
+    </node>
+    <node concept="1TJgyj" id="5r4pvgc5vMO" role="1TKVEi">
+      <property role="IQ2ns" value="6252234281546284212" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <ref role="20lvS9" to="naov:6OCoSdVFGzE" resolve="EExpression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5r4pvgc4_HF">
+    <property role="TrG5h" value="IParams" />
+    <property role="EcuMT" value="6252234281546046283" />
+    <node concept="PrWs8" id="2j9p9eWO2FO" role="PrDN$">
+      <ref role="PrY4T" to="de8f:5r4pvgc9TMw" resolve="IStringRepresentableConcept" />
     </node>
   </node>
 </model>
