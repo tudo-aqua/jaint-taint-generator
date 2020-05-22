@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -82,6 +83,12 @@
         <child id="1167952069335" name="sourceNodesQuery" index="3Jn$fo" />
       </concept>
     </language>
+    <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1218047638031" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" flags="nn" index="2piZGk">
+        <child id="1218047638032" name="baseName" index="2piZGb" />
+      </concept>
+      <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
@@ -150,6 +157,24 @@
                   <ref role="3TtcxE" to="naov:6OCoSdVJcBU" resolve="exps" />
                 </node>
                 <node concept="30H73N" id="5r4pvgcd32z" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17Uvod" id="2ILJvbVpTqN" role="lGtFl">
+        <property role="2qtEX9" value="name" />
+        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+        <node concept="3zFVjK" id="2ILJvbVpTqO" role="3zH0cK">
+          <node concept="3clFbS" id="2ILJvbVpTqP" role="2VODD2">
+            <node concept="3clFbF" id="2ILJvbVpTtN" role="3cqZAp">
+              <node concept="2OqwBi" id="2ILJvbVpTF0" role="3clFbG">
+                <node concept="1iwH7S" id="2ILJvbVpTtM" role="2Oq$k0" />
+                <node concept="2piZGk" id="2ILJvbVpTOy" role="2OqNvi">
+                  <node concept="Xl_RD" id="2ILJvbVpTPm" role="2piZGb">
+                    <property role="Xl_RC" value="test" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
