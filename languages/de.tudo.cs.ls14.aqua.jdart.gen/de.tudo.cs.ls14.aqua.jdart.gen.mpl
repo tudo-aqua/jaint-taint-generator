@@ -29,6 +29,10 @@
         </facet>
       </facets>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">011f162d-421c-45ec-b93e-e9fe75ca98e2(de.tudo.cs.ls14.aqua.jdart.eparams)</dependency>
+        <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -54,13 +58,18 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" version="0" />
         <module reference="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" version="0" />
+        <module reference="011f162d-421c-45ec-b93e-e9fe75ca98e2(de.tudo.cs.ls14.aqua.jdart.eparams)" version="0" />
         <module reference="d29ed155-5a69-438b-817d-70e96ceef79e(de.tudo.cs.ls14.aqua.jdart.gen)" version="0" />
         <module reference="1d49c9ae-f60c-4ded-b714-7c216dedcbc6(de.tudo.cs.ls14.aqua.jdart.gen#01)" version="0" />
         <module reference="29fa8e2a-1d49-4b97-bfb3-61ca7c2a679a(de.tudo.cs.ls14.aqua.jdart.gen.runtime)" version="0" />
         <module reference="fc73d6e8-78b3-4ccb-baa0-bf8d9899fa4f(de.tudo.cs.ls14.aqua.qol)" version="0" />
+        <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" version="0" />
+        <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
+        <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
+        <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
     </generator>

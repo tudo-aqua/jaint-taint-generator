@@ -7,23 +7,23 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD" />
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
-        <property id="1068580320021" name="value" index="3cmrfH" />
-      </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
     </language>
     <language id="011f162d-421c-45ec-b93e-e9fe75ca98e2" name="de.tudo.cs.ls14.aqua.jdart.eparams">
       <concept id="7865646165569498754" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.NamedClass" flags="ig" index="mxCO1" />
       <concept id="7865646165569498756" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.HasValueComparator" flags="ng" index="mxCO7" />
+      <concept id="7865646165569489199" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.OrExpression" flags="ng" index="mxEEG" />
       <concept id="7865646165569489133" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.BinaryExpression" flags="ng" index="mxEHI">
         <child id="7865646165569489134" name="left" index="mxEHH" />
         <child id="7865646165569489136" name="right" index="mxEHN" />
@@ -50,17 +50,6 @@
     </language>
   </registry>
   <node concept="m_aDU" id="6OCoSdVJeJi">
-    <node concept="mxCO7" id="59rwM0eR6OR" role="m_aDT">
-      <node concept="1sBlDs" id="59rwM0eR6OT" role="mxCO6">
-        <node concept="3cpWsn" id="59rwM0eRat1" role="1sBlDv">
-          <property role="TrG5h" value="test" />
-          <node concept="mxCO1" id="34N2ZoReLdJ" role="1tU5fm">
-            <property role="TrG5h" value="Test" />
-          </node>
-        </node>
-      </node>
-      <node concept="Xl_RD" id="34N2ZoReT2r" role="mxCO5" />
-    </node>
     <node concept="mxEHJ" id="3oHsQhDcM1g" role="m_aDT">
       <node concept="mxCO7" id="3oHsQhDcM1o" role="mxEHH">
         <node concept="1sBlDs" id="3oHsQhDcM1p" role="mxCO6">
@@ -68,12 +57,12 @@
           <property role="1sBlDt" value="getSecure" />
           <node concept="3cpWsn" id="3oHsQhDcM1w" role="1sBlDv">
             <property role="TrG5h" value="x" />
-            <node concept="10Oyi0" id="3oHsQhDcM1A" role="1tU5fm" />
+            <node concept="mxCO1" id="4XnFvGpmz73" role="1tU5fm">
+              <property role="TrG5h" value="Cookie" />
+            </node>
           </node>
         </node>
-        <node concept="3cmrfG" id="3oHsQhDcM1L" role="mxCO5">
-          <property role="3cmrfH" value="5" />
-        </node>
+        <node concept="3clFbT" id="4XnFvGpmOGv" role="mxCO5" />
       </node>
       <node concept="1sT4YX" id="3oHsQhDcM1U" role="mxEHN">
         <node concept="1sBlDs" id="3oHsQhDcM1V" role="mxCO6">
@@ -87,18 +76,42 @@
         </node>
       </node>
     </node>
-    <node concept="mxCO7" id="HJ59WwQSwe" role="m_aDT">
-      <node concept="1sBlDs" id="HJ59WwQSwg" role="mxCO6">
-        <property role="1sBlEW" value="true" />
-        <property role="1sBlDt" value="getSecure" />
-        <node concept="3cpWsn" id="HJ59WwQSwi" role="1sBlDv">
-          <property role="TrG5h" value="c" />
-          <node concept="mxCO1" id="HJ59WwQSyf" role="1tU5fm">
-            <property role="TrG5h" value="Cookie" />
+    <node concept="mxEHJ" id="4XnFvGpmRK_" role="m_aDT">
+      <node concept="mxEEG" id="4XnFvGpmRKN" role="mxEHH">
+        <node concept="mxCO7" id="4XnFvGpmRKP" role="mxEHH">
+          <node concept="1sBlDs" id="4XnFvGpmRKQ" role="mxCO6">
+            <node concept="3cpWsn" id="4XnFvGpmRKR" role="1sBlDv">
+              <property role="TrG5h" value="a" />
+              <node concept="17QB3L" id="4XnFvGpmRL3" role="1tU5fm" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="4XnFvGpmRLa" role="mxCO5">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+        <node concept="mxCO7" id="4XnFvGpmRLj" role="mxEHN">
+          <node concept="1sBlDs" id="4XnFvGpmRLk" role="mxCO6">
+            <node concept="3cpWsn" id="4XnFvGpmRLl" role="1sBlDv">
+              <property role="TrG5h" value="b" />
+              <node concept="17QB3L" id="4XnFvGpmRLx" role="1tU5fm" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="4XnFvGpmRLH" role="mxCO5">
+            <property role="Xl_RC" value="" />
           </node>
         </node>
       </node>
-      <node concept="3clFbT" id="HJ59WwQSyt" role="mxCO5" />
+      <node concept="mxCO7" id="4XnFvGpmRLQ" role="mxEHN">
+        <node concept="1sBlDs" id="4XnFvGpmRLR" role="mxCO6">
+          <node concept="3cpWsn" id="4XnFvGpmRLS" role="1sBlDv">
+            <property role="TrG5h" value="c" />
+            <node concept="17QB3L" id="4XnFvGpmRM4" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="4XnFvGpmRMb" role="mxCO5">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

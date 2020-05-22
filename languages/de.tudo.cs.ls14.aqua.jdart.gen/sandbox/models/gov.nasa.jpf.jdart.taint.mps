@@ -7,6 +7,26 @@
   </languages>
   <imports />
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+    </language>
+    <language id="011f162d-421c-45ec-b93e-e9fe75ca98e2" name="de.tudo.cs.ls14.aqua.jdart.eparams">
+      <concept id="7865646165569498754" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.NamedClass" flags="ig" index="mxCO1" />
+      <concept id="7865646165569498756" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.HasValueComparator" flags="ng" index="mxCO7" />
+      <concept id="5934481107700865404" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.VariableMethodDeclaration" flags="ng" index="1sBlDs">
+        <property id="5934481107700865405" name="method" index="1sBlDt" />
+        <property id="5934481107700865436" name="useMethod" index="1sBlEW" />
+        <child id="5934481107700865407" name="variable" index="1sBlDv" />
+      </concept>
+      <concept id="5934481107700403358" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.ValueComparator" flags="ng" index="1sT4YY">
+        <child id="7865646165569498758" name="value" index="mxCO5" />
+        <child id="7865646165569498757" name="variableMethod" index="mxCO6" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -56,6 +76,9 @@
       </concept>
       <concept id="1701909078719250737" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedClass" flags="ng" index="EzahV">
         <property id="1701909078719300667" name="class" index="Ezu5L" />
+      </concept>
+      <concept id="6252234281546046282" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.ExtendedParams" flags="ng" index="1qPzUY">
+        <child id="6252234281546284212" name="params" index="1qOp_0" />
       </concept>
     </language>
   </registry>
@@ -235,6 +258,37 @@
             <node concept="EzahS" id="YL1ThoqtW2" role="Ezagp">
               <property role="Eyxlm" value="get" />
               <property role="Ezu8L" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="4XnFvGpckIK" role="EwfFI">
+      <property role="TrG5h" value="SecureCookie" />
+      <node concept="Ezahx" id="4XnFvGpckIL" role="EzuqK">
+        <property role="1Sx16I" value="secure_cookie" />
+        <node concept="Ezahw" id="4XnFvGpckIM" role="Ezat5">
+          <node concept="Ezahz" id="4XnFvGpckIN" role="EzaiY">
+            <node concept="EzahV" id="4XnFvGpckIO" role="Ezagr">
+              <property role="Ezu5L" value="javax.servlet.http.Response" />
+            </node>
+            <node concept="EzahS" id="4XnFvGpckIP" role="Ezagp">
+              <property role="Eyxlm" value="addCookie" />
+            </node>
+            <node concept="1qPzUY" id="4XnFvGpckJZ" role="Ezags">
+              <node concept="mxCO7" id="4XnFvGpckK1" role="1qOp_0">
+                <node concept="1sBlDs" id="4XnFvGpckK2" role="mxCO6">
+                  <property role="1sBlEW" value="true" />
+                  <property role="1sBlDt" value="getSecure" />
+                  <node concept="3cpWsn" id="4XnFvGpckK3" role="1sBlDv">
+                    <property role="TrG5h" value="c" />
+                    <node concept="mxCO1" id="4XnFvGpcnR3" role="1tU5fm">
+                      <property role="TrG5h" value="Cookie" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbT" id="4XnFvGpcnRd" role="mxCO5" />
+              </node>
             </node>
           </node>
         </node>
