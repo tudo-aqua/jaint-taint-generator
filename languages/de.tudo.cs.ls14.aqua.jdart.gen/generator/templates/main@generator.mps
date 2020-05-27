@@ -6424,9 +6424,6 @@
             <node concept="37vLTw" id="4XnFvGpjp5U" role="37wK5m">
               <ref role="3cqZAo" node="2b_ZBHiw47R" resolve="currentThread" />
             </node>
-            <node concept="37vLTw" id="4XnFvGpjpaV" role="37wK5m">
-              <ref role="3cqZAo" node="4Qtfy_fzwmt" resolve="currentMethodName" />
-            </node>
           </node>
           <node concept="1W57fq" id="4XnFvGpjpYq" role="lGtFl">
             <node concept="3IZrLx" id="4XnFvGpjpYr" role="3IZSJc">
@@ -7358,10 +7355,6 @@
           <ref role="3uigEE" to="rlgy:~ThreadInfo" resolve="ThreadInfo" />
         </node>
       </node>
-      <node concept="37vLTG" id="4XnFvGpgIJr" role="3clF46">
-        <property role="TrG5h" value="methodName" />
-        <node concept="17QB3L" id="4XnFvGpgVbv" role="1tU5fm" />
-      </node>
       <node concept="1WS0z7" id="4XnFvGph9_g" role="lGtFl">
         <node concept="3JmXsc" id="4XnFvGph9_h" role="3Jn$fo">
           <node concept="3clFbS" id="4XnFvGph9_i" role="2VODD2">
@@ -7404,6 +7397,19 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="78f_Pg1vict" role="lGtFl">
+        <node concept="TZ5HA" id="78f_Pg1vicu" role="TZ5H$">
+          <node concept="1dT_AC" id="78f_Pg1vicv" role="1dT_Ay">
+            <property role="1dT_AB" value="This method checks the parameters of the current method for extended parameter constraints" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="78f_Pg1vicw" role="3nqlJM">
+          <property role="TUZQ4" value="The current thread" />
+          <node concept="zr_55" id="78f_Pg1vicy" role="zr_5Q">
+            <ref role="zr_51" node="4XnFvGpg$Oa" resolve="threadInfo" />
           </node>
         </node>
       </node>
