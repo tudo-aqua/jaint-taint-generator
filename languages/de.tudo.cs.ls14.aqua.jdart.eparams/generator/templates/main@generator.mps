@@ -89,9 +89,6 @@
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
-      <concept id="1112730859144" name="jetbrains.mps.lang.generator.structure.TemplateSwitch" flags="ig" index="jVnub">
-        <child id="1167340453568" name="reductionMappingRule" index="3aUrZf" />
-      </concept>
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
@@ -106,7 +103,6 @@
       <concept id="5133195082121471908" name="jetbrains.mps.lang.generator.structure.LabelMacro" flags="ln" index="2ZBi8u" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
-        <property id="1167272244852" name="applyToConceptInheritors" index="36QftV" />
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
       </concept>
       <concept id="1092059087312" name="jetbrains.mps.lang.generator.structure.TemplateDeclaration" flags="ig" index="13MO4I">
@@ -713,37 +709,6 @@
         <node concept="3cqZAl" id="ejlwklWUiX" role="3clF45" />
       </node>
       <node concept="3Tm1VV" id="ejlwklWUio" role="1B3o_S" />
-    </node>
-  </node>
-  <node concept="jVnub" id="2edUqwi8poo">
-    <property role="TrG5h" value="switch_EExpression" />
-    <node concept="3aamgX" id="2edUqwi8rWa" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="naov:6OCoSdVFGzG" resolve="AndExpression" />
-      <node concept="j$656" id="2edUqwi8tcu" role="1lVwrX">
-        <ref role="v9R2y" node="ejlwklWyrh" resolve="reduce_AndExpression" />
-      </node>
-    </node>
-    <node concept="3aamgX" id="2edUqwi8tcx" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="naov:6OCoSdVFG$J" resolve="OrExpression" />
-      <node concept="j$656" id="2edUqwi8tcB" role="1lVwrX">
-        <ref role="v9R2y" node="ejlwklWRd1" resolve="reduce_OrExpression" />
-      </node>
-    </node>
-    <node concept="3aamgX" id="2edUqwi8tcE" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="naov:6OCoSdVFIU4" resolve="HasValueComparator" />
-      <node concept="j$656" id="2edUqwi8tcM" role="1lVwrX">
-        <ref role="v9R2y" node="ejlwklWoJ7" resolve="reduce_HasValueComparator" />
-      </node>
-    </node>
-    <node concept="3aamgX" id="2edUqwi8tcP" role="3aUrZf">
-      <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="naov:59rwM0eJWMt" resolve="HasNotValueComparator" />
-      <node concept="j$656" id="2edUqwi8tcZ" role="1lVwrX">
-        <ref role="v9R2y" node="ejlwklWUil" resolve="reduce_HasNotValueComparator" />
-      </node>
     </node>
   </node>
 </model>
