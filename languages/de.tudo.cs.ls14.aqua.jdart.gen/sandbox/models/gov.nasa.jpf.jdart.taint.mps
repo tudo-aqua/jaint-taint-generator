@@ -294,6 +294,58 @@
         </node>
       </node>
     </node>
+    <node concept="EzahB" id="6qbPsztsonf" role="EwfFI">
+      <property role="TrG5h" value="PathTraversal" />
+      <node concept="Ezahx" id="6qbPsztsong" role="EzuqK">
+        <property role="1Sx16I" value="path" />
+        <property role="36gfZE" value="true" />
+        <node concept="Ezahw" id="6qbPsztsonh" role="Ezat5">
+          <node concept="Ezahz" id="6qbPsztsoni" role="EzaiY">
+            <node concept="EzahV" id="6qbPsztsonj" role="Ezagr">
+              <property role="Ezu5L" value="java.io.FileOutputStream" />
+            </node>
+            <node concept="EzahS" id="6qbPsztsonk" role="Ezagp">
+              <property role="EySFM" value="true" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="6qbPsztsorO" role="EzaiY">
+            <node concept="EzahV" id="6qbPsztsorP" role="Ezagr">
+              <property role="Ezu5L" value="java.io.File" />
+            </node>
+            <node concept="EzahS" id="6qbPsztsorQ" role="Ezagp">
+              <property role="EySFM" value="true" />
+            </node>
+            <node concept="EzahT" id="6qbPsztsosb" role="Ezags">
+              <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="6qbPsztsorX" role="EzaiY">
+            <node concept="EzahV" id="6qbPsztsorY" role="Ezagr">
+              <property role="Ezu5L" value="java.io.File" />
+            </node>
+            <node concept="EzahS" id="6qbPsztsorZ" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="6qbPsztsosd" role="Ezags">
+              <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="EzahA" id="6qbPsztsooE" role="EzuqZ">
+        <node concept="Ezahw" id="6qbPsztsooF" role="Ezuqe">
+          <node concept="Ezahz" id="6qbPsztsooG" role="EzaiY">
+            <node concept="EzahV" id="6qbPsztsooH" role="Ezagr">
+              <property role="Ezu5L" value="HttpServletRequest" />
+            </node>
+            <node concept="EzahS" id="6qbPsztsooI" role="Ezagp">
+              <property role="Eyxlm" value="get" />
+              <property role="Ezu8L" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
