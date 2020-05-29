@@ -6943,7 +6943,7 @@
                             <node concept="liA8E" id="467Pr2MA3Ja" role="2OqNvi">
                               <ref role="37wK5l" to="rlgy:~ElementInfo.getObjectAttr(java.lang.Class)" resolve="getObjectAttr" />
                               <node concept="3VsKOn" id="467Pr2MA3RK" role="37wK5m">
-                                <ref role="3VsUkX" to="w19w:~SymbolicObject" resolve="SymbolicObject" />
+                                <ref role="3VsUkX" to="w19w:~SymbolicString" resolve="SymbolicString" />
                               </node>
                             </node>
                           </node>
