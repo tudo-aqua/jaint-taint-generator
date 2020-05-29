@@ -203,6 +203,9 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
+        <child id="1144226360166" name="iterable" index="1DdaDG" />
+      </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
@@ -3405,25 +3408,14 @@
             <node concept="3clFbT" id="1fE0O12bBJT" role="33vP2m" />
           </node>
         </node>
-        <node concept="2Gpval" id="1fE0O12bJFq" role="3cqZAp">
-          <node concept="2GrKxI" id="1fE0O12bJFs" role="2Gsz3X">
-            <property role="TrG5h" value="classLoader" />
-          </node>
-          <node concept="2OqwBi" id="1fE0O12c8TC" role="2GsD0m">
-            <node concept="37vLTw" id="1fE0O12c3tb" role="2Oq$k0">
-              <ref role="3cqZAo" node="56c4upgZMII" resolve="vm" />
-            </node>
-            <node concept="liA8E" id="1fE0O12cg7d" role="2OqNvi">
-              <ref role="37wK5l" to="rlgy:~VM.getClassLoaderList()" resolve="getClassLoaderList" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="1fE0O12bJFw" role="2LFqv$">
+        <node concept="1DcWWT" id="6qbPsztosJ7" role="3cqZAp">
+          <node concept="3clFbS" id="6qbPsztosJ9" role="2LFqv$">
             <node concept="3clFbF" id="1fE0O12cgUf" role="3cqZAp">
               <node concept="3vZ8r8" id="1fE0O12chcE" role="3clFbG">
                 <node concept="2OqwBi" id="1fE0O12cNMN" role="37vLTx">
                   <node concept="2OqwBi" id="1fE0O12chdP" role="2Oq$k0">
-                    <node concept="2GrUjf" id="1fE0O12chdk" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="1fE0O12bJFs" resolve="classLoader" />
+                    <node concept="37vLTw" id="6qbPsztoYef" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6qbPsztosJa" resolve="classLoader" />
                     </node>
                     <node concept="liA8E" id="1fE0O12cq97" role="2OqNvi">
                       <ref role="37wK5l" to="rlgy:~ClassLoaderInfo.getResolvedClassInfo(java.lang.String)" resolve="getResolvedClassInfo" />
@@ -3461,6 +3453,20 @@
                   <ref role="3cqZAo" node="1fE0O12bvdw" resolve="isInterface" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="6qbPsztosJa" role="1Duv9x">
+            <property role="TrG5h" value="classLoader" />
+            <node concept="3uibUv" id="6qbPsztoCPp" role="1tU5fm">
+              <ref role="3uigEE" to="rlgy:~ClassLoaderInfo" resolve="ClassLoaderInfo" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6qbPsztoEph" role="1DdaDG">
+            <node concept="37vLTw" id="6qbPsztoDiK" role="2Oq$k0">
+              <ref role="3cqZAo" node="56c4upgZMII" resolve="vm" />
+            </node>
+            <node concept="liA8E" id="6qbPsztoFcE" role="2OqNvi">
+              <ref role="37wK5l" to="rlgy:~VM.getClassLoaderList()" resolve="getClassLoaderList" />
             </node>
           </node>
         </node>
@@ -6885,19 +6891,8 @@
               </node>
               <node concept="9aQIb" id="467Pr2MA0fk" role="9aQIa">
                 <node concept="3clFbS" id="467Pr2MA0fl" role="9aQI4">
-                  <node concept="2Gpval" id="467Pr2MA0qW" role="3cqZAp">
-                    <node concept="2GrKxI" id="467Pr2MA0qX" role="2Gsz3X">
-                      <property role="TrG5h" value="info" />
-                    </node>
-                    <node concept="2OqwBi" id="467Pr2MA0$Q" role="2GsD0m">
-                      <node concept="37vLTw" id="467Pr2MA0ur" role="2Oq$k0">
-                        <ref role="3cqZAo" node="467Pr2M_Vgu" resolve="elementInfo" />
-                      </node>
-                      <node concept="liA8E" id="6kN9C8APW7H" role="2OqNvi">
-                        <ref role="37wK5l" to="rlgy:~ElementInfo.asReferenceArray()" resolve="asReferenceArray" />
-                      </node>
-                    </node>
-                    <node concept="3clFbS" id="467Pr2MA0qZ" role="2LFqv$">
+                  <node concept="1DcWWT" id="6qbPsztqPl4" role="3cqZAp">
+                    <node concept="3clFbS" id="6qbPsztqPl6" role="2LFqv$">
                       <node concept="3cpWs8" id="467Pr2MA1mM" role="3cqZAp">
                         <node concept="3cpWsn" id="467Pr2MA1mN" role="3cpWs9">
                           <property role="TrG5h" value="tempInfo" />
@@ -6910,8 +6905,8 @@
                             </node>
                             <node concept="liA8E" id="467Pr2MA38n" role="2OqNvi">
                               <ref role="37wK5l" to="rlgy:~ThreadInfo.getElementInfo(int)" resolve="getElementInfo" />
-                              <node concept="2GrUjf" id="467Pr2MA3eR" role="37wK5m">
-                                <ref role="2Gs0qQ" node="467Pr2MA0qX" resolve="info" />
+                              <node concept="37vLTw" id="6qbPsztqTHo" role="37wK5m">
+                                <ref role="3cqZAo" node="6qbPsztqPl7" resolve="info" />
                               </node>
                             </node>
                           </node>
@@ -6983,6 +6978,21 @@
                             <ref role="3cqZAo" node="467Pr2M_b9Q" resolve="threadInfo" />
                           </node>
                         </node>
+                      </node>
+                      <node concept="3clFbH" id="6qbPsztqPl5" role="3cqZAp" />
+                    </node>
+                    <node concept="3cpWsn" id="6qbPsztqPl7" role="1Duv9x">
+                      <property role="TrG5h" value="info" />
+                      <node concept="3uibUv" id="6qbPsztqPGz" role="1tU5fm">
+                        <ref role="3uigEE" to="rlgy:~ElementInfo" resolve="ElementInfo" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6qbPsztqR6M" role="1DdaDG">
+                      <node concept="37vLTw" id="6qbPsztqQQu" role="2Oq$k0">
+                        <ref role="3cqZAo" node="467Pr2M_Vgu" resolve="elementInfo" />
+                      </node>
+                      <node concept="liA8E" id="6qbPsztqRkv" role="2OqNvi">
+                        <ref role="37wK5l" to="rlgy:~ElementInfo.asReferenceArray()" resolve="asReferenceArray" />
                       </node>
                     </node>
                   </node>
