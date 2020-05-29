@@ -3342,8 +3342,8 @@
                 <node concept="37vLTw" id="56c4uph3FKx" role="2Oq$k0">
                   <ref role="3cqZAo" node="56c4upgZVBK" resolve="currentMethod" />
                 </node>
-                <node concept="liA8E" id="56c4uph3FKy" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                <node concept="liA8E" id="6qbPszt$Yu3" role="2OqNvi">
+                  <ref role="37wK5l" to="rlgy:~MethodInfo.getClassInfo()" resolve="getClassInfo" />
                 </node>
               </node>
               <node concept="liA8E" id="56c4uph3FKz" role="2OqNvi">
@@ -4058,39 +4058,46 @@
           </node>
         </node>
         <node concept="3clFbH" id="56c4uph3FNc" role="3cqZAp" />
-        <node concept="3SKdUt" id="56c4uph3FNd" role="3cqZAp">
-          <node concept="1PaTwC" id="56c4uph3FNe" role="1aUNEU">
-            <node concept="3oM_SD" id="56c4uph3FNf" role="1PaTwD">
-              <property role="3oM_SC" value="Check" />
+        <node concept="3clFbJ" id="6qbPsztz5O6" role="3cqZAp">
+          <node concept="3clFbS" id="6qbPsztz5O8" role="3clFbx">
+            <node concept="3SKdUt" id="56c4uph3FNd" role="3cqZAp">
+              <node concept="1PaTwC" id="56c4uph3FNe" role="1aUNEU">
+                <node concept="3oM_SD" id="56c4uph3FNf" role="1PaTwD">
+                  <property role="3oM_SC" value="Check" />
+                </node>
+                <node concept="3oM_SD" id="56c4uph3FNg" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="56c4uph3FNh" role="1PaTwD">
+                  <property role="3oM_SC" value="specified" />
+                </node>
+                <node concept="3oM_SD" id="56c4uph3FNi" role="1PaTwD">
+                  <property role="3oM_SC" value="method" />
+                </node>
+              </node>
             </node>
-            <node concept="3oM_SD" id="56c4uph3FNg" role="1PaTwD">
-              <property role="3oM_SC" value="for" />
-            </node>
-            <node concept="3oM_SD" id="56c4uph3FNh" role="1PaTwD">
-              <property role="3oM_SC" value="specified" />
-            </node>
-            <node concept="3oM_SD" id="56c4uph3FNi" role="1PaTwD">
-              <property role="3oM_SC" value="method" />
+            <node concept="3clFbF" id="56c4uph3FNj" role="3cqZAp">
+              <node concept="3vZ8ra" id="56c4uph3FNk" role="3clFbG">
+                <node concept="1rXfSq" id="56c4uph3FNl" role="37vLTx">
+                  <ref role="37wK5l" node="56c4uph9toP" resolve="checkExtendedTaintMethod" />
+                  <node concept="37vLTw" id="56c4uph3FNm" role="37wK5m">
+                    <ref role="3cqZAo" node="56c4upgZMII" resolve="vm" />
+                  </node>
+                  <node concept="37vLTw" id="56c4uph3FNn" role="37wK5m">
+                    <ref role="3cqZAo" node="56c4upgZMIM" resolve="currentThread" />
+                  </node>
+                  <node concept="37vLTw" id="56c4uph3FNo" role="37wK5m">
+                    <ref role="3cqZAo" node="56c4upgZVBK" resolve="currentMethod" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="56c4uph3FNp" role="37vLTJ">
+                  <ref role="3cqZAo" node="56c4uph3FK_" resolve="classTrigger" />
+                </node>
+              </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="56c4uph3FNj" role="3cqZAp">
-          <node concept="3vZ8ra" id="56c4uph3FNk" role="3clFbG">
-            <node concept="1rXfSq" id="56c4uph3FNl" role="37vLTx">
-              <ref role="37wK5l" node="56c4uph9toP" resolve="checkExtendedTaintMethod" />
-              <node concept="37vLTw" id="56c4uph3FNm" role="37wK5m">
-                <ref role="3cqZAo" node="56c4upgZMII" resolve="vm" />
-              </node>
-              <node concept="37vLTw" id="56c4uph3FNn" role="37wK5m">
-                <ref role="3cqZAo" node="56c4upgZMIM" resolve="currentThread" />
-              </node>
-              <node concept="37vLTw" id="56c4uph3FNo" role="37wK5m">
-                <ref role="3cqZAo" node="56c4upgZVBK" resolve="currentMethod" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="56c4uph3FNp" role="37vLTJ">
-              <ref role="3cqZAo" node="56c4uph3FK_" resolve="classTrigger" />
-            </node>
+          <node concept="37vLTw" id="6qbPsztzfxw" role="3clFbw">
+            <ref role="3cqZAo" node="56c4uph3FK_" resolve="classTrigger" />
           </node>
         </node>
         <node concept="3clFbH" id="56c4uph3FNq" role="3cqZAp" />
@@ -5110,8 +5117,8 @@
                 <node concept="37vLTw" id="4Qtfy_fzfPb" role="2Oq$k0">
                   <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
                 </node>
-                <node concept="liA8E" id="6kN9C8APJKa" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
+                <node concept="liA8E" id="6qbPszt_0ZI" role="2OqNvi">
+                  <ref role="37wK5l" to="rlgy:~MethodInfo.getClassInfo()" resolve="getClassInfo" />
                 </node>
               </node>
               <node concept="liA8E" id="6kN9C8APLPh" role="2OqNvi">
@@ -5543,39 +5550,46 @@
           </node>
         </node>
         <node concept="3clFbH" id="4Qtfy_fyEgM" role="3cqZAp" />
-        <node concept="3SKdUt" id="2b_ZBHiyDwJ" role="3cqZAp">
-          <node concept="1PaTwC" id="2b_ZBHiyDwK" role="1aUNEU">
-            <node concept="3oM_SD" id="2b_ZBHiyDwM" role="1PaTwD">
-              <property role="3oM_SC" value="Check" />
+        <node concept="3clFbJ" id="6qbPsztzCAs" role="3cqZAp">
+          <node concept="3clFbS" id="6qbPsztzCAu" role="3clFbx">
+            <node concept="3SKdUt" id="2b_ZBHiyDwJ" role="3cqZAp">
+              <node concept="1PaTwC" id="2b_ZBHiyDwK" role="1aUNEU">
+                <node concept="3oM_SD" id="2b_ZBHiyDwM" role="1PaTwD">
+                  <property role="3oM_SC" value="Check" />
+                </node>
+                <node concept="3oM_SD" id="2b_ZBHiyDzN" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="2b_ZBHiyDzQ" role="1PaTwD">
+                  <property role="3oM_SC" value="specified" />
+                </node>
+                <node concept="3oM_SD" id="2b_ZBHiyHn9" role="1PaTwD">
+                  <property role="3oM_SC" value="method" />
+                </node>
+              </node>
             </node>
-            <node concept="3oM_SD" id="2b_ZBHiyDzN" role="1PaTwD">
-              <property role="3oM_SC" value="for" />
-            </node>
-            <node concept="3oM_SD" id="2b_ZBHiyDzQ" role="1PaTwD">
-              <property role="3oM_SC" value="specified" />
-            </node>
-            <node concept="3oM_SD" id="2b_ZBHiyHn9" role="1PaTwD">
-              <property role="3oM_SC" value="method" />
+            <node concept="3clFbF" id="2b_ZBHixkGq" role="3cqZAp">
+              <node concept="3vZ8ra" id="2b_ZBHixrKT" role="3clFbG">
+                <node concept="1rXfSq" id="2b_ZBHixs2r" role="37vLTx">
+                  <ref role="37wK5l" node="2b_ZBHivT46" resolve="checkMethodTrigger_Class" />
+                  <node concept="37vLTw" id="2b_ZBHixsD2" role="37wK5m">
+                    <ref role="3cqZAo" node="4Qtfy_fwiYJ" resolve="vm" />
+                  </node>
+                  <node concept="37vLTw" id="2b_ZBHixsN3" role="37wK5m">
+                    <ref role="3cqZAo" node="4Qtfy_fwnO9" resolve="currentThread" />
+                  </node>
+                  <node concept="37vLTw" id="2b_ZBHixsRp" role="37wK5m">
+                    <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2b_ZBHixkGo" role="37vLTJ">
+                  <ref role="3cqZAo" node="4Qtfy_fyEec" resolve="classTrigger" />
+                </node>
+              </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="2b_ZBHixkGq" role="3cqZAp">
-          <node concept="3vZ8ra" id="2b_ZBHixrKT" role="3clFbG">
-            <node concept="1rXfSq" id="2b_ZBHixs2r" role="37vLTx">
-              <ref role="37wK5l" node="2b_ZBHivT46" resolve="checkMethodTrigger_Class" />
-              <node concept="37vLTw" id="2b_ZBHixsD2" role="37wK5m">
-                <ref role="3cqZAo" node="4Qtfy_fwiYJ" resolve="vm" />
-              </node>
-              <node concept="37vLTw" id="2b_ZBHixsN3" role="37wK5m">
-                <ref role="3cqZAo" node="4Qtfy_fwnO9" resolve="currentThread" />
-              </node>
-              <node concept="37vLTw" id="2b_ZBHixsRp" role="37wK5m">
-                <ref role="3cqZAo" node="4Qtfy_fwspR" resolve="currentMethod" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="2b_ZBHixkGo" role="37vLTJ">
-              <ref role="3cqZAo" node="4Qtfy_fyEec" resolve="classTrigger" />
-            </node>
+          <node concept="37vLTw" id="6qbPsztzP2m" role="3clFbw">
+            <ref role="3cqZAo" node="4Qtfy_fyEec" resolve="classTrigger" />
           </node>
         </node>
         <node concept="3clFbH" id="6JfGCaHvNP4" role="3cqZAp" />
