@@ -130,6 +130,17 @@
               <property role="Ezu8O" value="true" />
             </node>
           </node>
+          <node concept="Ezahz" id="4n0mBxWRVvN" role="EzaiY">
+            <node concept="EzahV" id="4n0mBxWRVvO" role="Ezagr">
+              <property role="Ezu5L" value="java.util.Random" />
+            </node>
+            <node concept="EzahS" id="4n0mBxWRVvP" role="Ezagp">
+              <property role="Eyxlm" value="getBytes" />
+            </node>
+            <node concept="EzahT" id="4n0mBxWRVw3" role="Ezags">
+              <property role="EyIa8" value="bytes" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
