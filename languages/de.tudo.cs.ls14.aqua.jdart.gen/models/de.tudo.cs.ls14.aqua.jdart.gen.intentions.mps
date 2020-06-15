@@ -511,5 +511,63 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="1T3MpovSO$f">
+    <property role="TrG5h" value="ToggleTaintParam" />
+    <ref role="2ZfgGC" to="y4i8:1uupkCX4G4N" resolve="WildcardedParams" />
+    <node concept="2S6ZIM" id="1T3MpovSO$g" role="2ZfVej">
+      <node concept="3clFbS" id="1T3MpovSO$h" role="2VODD2">
+        <node concept="3clFbJ" id="1T3MpovSOKY" role="3cqZAp">
+          <node concept="3fqX7Q" id="1T3MpovSOLt" role="3clFbw">
+            <node concept="2OqwBi" id="1T3MpovSP1b" role="3fr31v">
+              <node concept="2Sf5sV" id="1T3MpovSOLy" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1T3MpovSPd2" role="2OqNvi">
+                <ref role="3TsBF5" to="y4i8:1T3MpovSMI5" resolve="tainted" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1T3MpovSOL0" role="3clFbx">
+            <node concept="3cpWs6" id="1T3MpovSPkO" role="3cqZAp">
+              <node concept="Xl_RD" id="1T3MpovSPkW" role="3cqZAk">
+                <property role="Xl_RC" value="Add taint marker to param" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1T3MpovSPkd" role="9aQIa">
+            <node concept="3clFbS" id="1T3MpovSPke" role="9aQI4">
+              <node concept="3cpWs6" id="1T3MpovSPlH" role="3cqZAp">
+                <node concept="Xl_RD" id="1T3MpovSPlP" role="3cqZAk">
+                  <property role="Xl_RC" value="Remove taint marker from param" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1T3MpovSO$i" role="2ZfgGD">
+      <node concept="3clFbS" id="1T3MpovSO$j" role="2VODD2">
+        <node concept="3clFbF" id="1T3MpovSQbC" role="3cqZAp">
+          <node concept="2OqwBi" id="1T3MpovSQt1" role="3clFbG">
+            <node concept="2OqwBi" id="1T3MpovSQbQ" role="2Oq$k0">
+              <node concept="2Sf5sV" id="1T3MpovSQbB" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1T3MpovSQcM" role="2OqNvi">
+                <ref role="3TsBF5" to="y4i8:1T3MpovSMI5" resolve="tainted" />
+              </node>
+            </node>
+            <node concept="tyxLq" id="1T3MpovSQCK" role="2OqNvi">
+              <node concept="3fqX7Q" id="1T3MpovSQH1" role="tz02z">
+                <node concept="2OqwBi" id="1T3MpovSQSb" role="3fr31v">
+                  <node concept="2Sf5sV" id="1T3MpovSQH6" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1T3MpovSQV1" role="2OqNvi">
+                    <ref role="3TsBF5" to="y4i8:1T3MpovSMI5" resolve="tainted" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

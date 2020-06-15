@@ -68,10 +68,12 @@
         <property id="1701909078719459256" name="useConstructor" index="EySFM" />
       </concept>
       <concept id="1701909078719250739" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedParams" flags="ng" index="EzahT">
+        <property id="2180808291194710917" name="tainted" index="1Ce8j" />
         <property id="1701909078719367106" name="params" index="EyIa8" />
       </concept>
       <concept id="1701909078719250736" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedElement" flags="ng" index="EzahU">
         <property id="1701909078719301499" name="usePostWildcard" index="Ezu8L" />
+        <property id="1701909078719301497" name="usePreWildcard" index="Ezu8N" />
         <property id="1701909078719301502" name="useGeneralWildcard" index="Ezu8O" />
       </concept>
       <concept id="1701909078719250737" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.WildcardedClass" flags="ng" index="EzahV">
@@ -139,6 +141,7 @@
             </node>
             <node concept="EzahT" id="4n0mBxWRVw3" role="Ezags">
               <property role="EyIa8" value="bytes" />
+              <property role="1Ce8j" value="true" />
             </node>
           </node>
         </node>
@@ -265,6 +268,7 @@
           <node concept="Ezahz" id="YL1ThoqtW0" role="EzaiY">
             <node concept="EzahV" id="YL1ThoqtW1" role="Ezagr">
               <property role="Ezu5L" value="HttpServletRequest" />
+              <property role="Ezu8N" value="true" />
             </node>
             <node concept="EzahS" id="YL1ThoqtW2" role="Ezagp">
               <property role="Eyxlm" value="get" />
