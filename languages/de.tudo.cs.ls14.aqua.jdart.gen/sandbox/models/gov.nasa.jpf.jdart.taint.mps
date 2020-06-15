@@ -137,11 +137,40 @@
               <property role="Ezu5L" value="java.util.Random" />
             </node>
             <node concept="EzahS" id="4n0mBxWRVvP" role="Ezagp">
-              <property role="Eyxlm" value="getBytes" />
+              <property role="Eyxlm" value="nextBytes" />
             </node>
             <node concept="EzahT" id="4n0mBxWRVw3" role="Ezags">
               <property role="EyIa8" value="bytes" />
               <property role="1Ce8j" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Ezahy" id="1T3MpovZpYZ" role="EzuqX">
+        <node concept="Ezahw" id="1T3MpovZpZ1" role="EzahY">
+          <node concept="Ezahz" id="1T3Mpow00cL" role="EzaiY">
+            <node concept="EzahV" id="1T3Mpow00cM" role="Ezagr">
+              <property role="Ezu5L" value="java.security.SecureRandom" />
+            </node>
+            <node concept="EzahS" id="1T3Mpow00cN" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="1T3Mpow00cV" role="Ezags">
+              <property role="1Ce8j" value="true" />
+              <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="1T3MpovZpZ9" role="EzaiY">
+            <node concept="EzahV" id="1T3MpovZpZa" role="Ezagr">
+              <property role="Ezu5L" value="java.security.SecureRandom" />
+            </node>
+            <node concept="EzahS" id="1T3MpovZpZb" role="Ezagp">
+              <property role="Eyxlm" value="nextBytes" />
+              <property role="Ezu8L" value="true" />
+            </node>
+            <node concept="EzahT" id="1T3Mpow00cF" role="Ezags">
+              <property role="1Ce8j" value="true" />
+              <property role="Ezu8O" value="true" />
             </node>
           </node>
         </node>
