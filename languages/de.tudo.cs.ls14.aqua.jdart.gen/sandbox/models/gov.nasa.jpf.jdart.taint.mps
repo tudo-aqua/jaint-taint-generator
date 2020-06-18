@@ -8,6 +8,10 @@
   <imports />
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -17,6 +21,11 @@
     <language id="011f162d-421c-45ec-b93e-e9fe75ca98e2" name="de.tudo.cs.ls14.aqua.jdart.eparams">
       <concept id="7865646165569498754" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.NamedClass" flags="ig" index="mxCO1" />
       <concept id="7865646165569498756" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.HasValueComparator" flags="ng" index="mxCO7" />
+      <concept id="7865646165569489199" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.OrExpression" flags="ng" index="mxEEG" />
+      <concept id="7865646165569489133" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.BinaryExpression" flags="ng" index="mxEHI">
+        <child id="7865646165569489134" name="left" index="mxEHH" />
+        <child id="7865646165569489136" name="right" index="mxEHN" />
+      </concept>
       <concept id="5934481107700865404" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.VariableMethodDeclaration" flags="ng" index="1sBlDs">
         <property id="5934481107700865405" name="method" index="1sBlDt" />
         <property id="5934481107700865436" name="useMethod" index="1sBlEW" />
@@ -480,6 +489,77 @@
             </node>
             <node concept="EzahS" id="3MC2nPtulyM" role="Ezagp">
               <property role="Eyxlm" value="nextElement" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="3MC2nPtzDSm" role="EwfFI">
+      <property role="TrG5h" value="WeakHashing" />
+      <node concept="Ezahx" id="3MC2nPtzDSn" role="EzuqK">
+        <property role="1xbHQb" value="true" />
+        <node concept="Ezahw" id="3MC2nPtzDSo" role="Ezat5">
+          <node concept="Ezahz" id="3MC2nPtzDSp" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPtzDSq" role="Ezagr">
+              <property role="Ezu5L" value="java.security.MessageDigest" />
+            </node>
+            <node concept="EzahS" id="3MC2nPtzDSr" role="Ezagp">
+              <property role="EySFM" value="true" />
+            </node>
+            <node concept="1qPzUY" id="3MC2nPtzDUO" role="Ezags">
+              <node concept="mxEEG" id="3MC2nPtzDXg" role="1qOp_0">
+                <node concept="mxCO7" id="3MC2nPtzDXi" role="mxEHH">
+                  <node concept="1sBlDs" id="3MC2nPtzDXj" role="mxCO6">
+                    <node concept="3cpWsn" id="3MC2nPtzDXk" role="1sBlDv">
+                      <property role="TrG5h" value="algorithm" />
+                      <node concept="17QB3L" id="3MC2nPtzDXw" role="1tU5fm" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3MC2nPtzDXB" role="mxCO5">
+                    <property role="Xl_RC" value="md5" />
+                  </node>
+                </node>
+                <node concept="mxCO7" id="3MC2nPtzDY4" role="mxEHN">
+                  <node concept="1sBlDs" id="3MC2nPtzDY5" role="mxCO6">
+                    <node concept="3cpWsn" id="3MC2nPtzDY6" role="1sBlDv">
+                      <property role="TrG5h" value="algorithm" />
+                      <node concept="17QB3L" id="3MC2nPtzDYi" role="1tU5fm" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3MC2nPtzDYr" role="mxCO5">
+                    <property role="Xl_RC" value="sha1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="3MC2nPtzDYS" role="EwfFI">
+      <property role="TrG5h" value="WeakCrypto" />
+      <node concept="Ezahx" id="3MC2nPtzDYT" role="EzuqK">
+        <property role="1xbHQb" value="true" />
+        <node concept="Ezahw" id="3MC2nPtzDYU" role="Ezat5">
+          <node concept="Ezahz" id="3MC2nPtzDYV" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPtzDYW" role="Ezagr">
+              <property role="Ezu5L" value="javax.crypto.Cipher" />
+            </node>
+            <node concept="EzahS" id="3MC2nPtzDYX" role="Ezagp">
+              <property role="Eyxlm" value="getInstance" />
+            </node>
+            <node concept="1qPzUY" id="3MC2nPtzE1C" role="Ezags">
+              <node concept="mxCO7" id="3MC2nPtzE1E" role="1qOp_0">
+                <node concept="1sBlDs" id="3MC2nPtzE1F" role="mxCO6">
+                  <node concept="3cpWsn" id="3MC2nPtzE1G" role="1sBlDv">
+                    <property role="TrG5h" value="transformation" />
+                    <node concept="17QB3L" id="3MC2nPtzE1S" role="1tU5fm" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3MC2nPtzE1Z" role="mxCO5">
+                  <property role="Xl_RC" value="DES" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
