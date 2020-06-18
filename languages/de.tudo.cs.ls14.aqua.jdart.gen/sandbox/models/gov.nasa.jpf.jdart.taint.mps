@@ -41,6 +41,7 @@
       </concept>
       <concept id="1701909078719250731" name="de.tudo.cs.ls14.aqua.jdart.gen.structure.Sink" flags="ng" index="Ezahx">
         <property id="7768624156564737384" name="extendTaintOnParametersReached" index="36gfZE" />
+        <property id="4370753872407745782" name="useConditionOnSink" index="1xbHQb" />
         <property id="1961901437117924184" name="variable" index="1Sx16I" />
         <child id="1701909078719250959" name="sinks" index="Ezat5" />
       </concept>
@@ -148,16 +149,35 @@
       </node>
       <node concept="Ezahy" id="1T3MpovZpYZ" role="EzuqX">
         <node concept="Ezahw" id="1T3MpovZpZ1" role="EzahY">
-          <node concept="Ezahz" id="1T3Mpow00cL" role="EzaiY">
-            <node concept="EzahV" id="1T3Mpow00cM" role="Ezagr">
+          <node concept="Ezahz" id="3MC2nPtsOrN" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPtsOrO" role="Ezagr">
               <property role="Ezu5L" value="java.security.SecureRandom" />
             </node>
-            <node concept="EzahS" id="1T3Mpow00cN" role="Ezagp">
+            <node concept="EzahS" id="3MC2nPtsOrP" role="Ezagp">
               <property role="Ezu8O" value="true" />
             </node>
-            <node concept="EzahT" id="1T3Mpow00cV" role="Ezags">
-              <property role="1Ce8j" value="true" />
+            <node concept="EzahT" id="3MC2nPtsOs4" role="Ezags">
               <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="3MC2nPtl$gu" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPtl$gv" role="Ezagr">
+              <property role="Ezu5L" value="java.security.SecureRandom" />
+            </node>
+            <node concept="EzahS" id="3MC2nPtl$gw" role="Ezagp">
+              <property role="Eyxlm" value="getInstance" />
+            </node>
+            <node concept="EzahT" id="3MC2nPtl$gG" role="Ezags">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahS" id="3MC2nPtlXNi" role="35GUmk">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="3MC2nPtlXNj" role="35HWsu">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahV" id="3MC2nPtlXNk" role="0B2HG">
+              <property role="Ezu5L" value="java.util.Random" />
             </node>
           </node>
           <node concept="Ezahz" id="1T3MpovZpZ9" role="EzaiY">
@@ -311,6 +331,7 @@
       <property role="TrG5h" value="SecureCookie" />
       <node concept="Ezahx" id="4XnFvGpckIL" role="EzuqK">
         <property role="1Sx16I" value="secure_cookie" />
+        <property role="1xbHQb" value="true" />
         <node concept="Ezahw" id="4XnFvGpckIM" role="Ezat5">
           <node concept="Ezahz" id="4XnFvGpckIN" role="EzaiY">
             <node concept="EzahV" id="4XnFvGpckIO" role="Ezagr">
@@ -385,6 +406,80 @@
             <node concept="EzahS" id="6qbPsztsooI" role="Ezagp">
               <property role="Eyxlm" value="get" />
               <property role="Ezu8L" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="3MC2nPttNd$" role="EwfFI">
+      <property role="TrG5h" value="XpathInjection" />
+      <node concept="Ezahx" id="3MC2nPttNd_" role="EzuqK">
+        <property role="1Sx16I" value="xpathi" />
+        <node concept="Ezahw" id="3MC2nPttNdA" role="Ezat5">
+          <node concept="Ezahz" id="3MC2nPttNdB" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPttNdC" role="Ezagr">
+              <property role="Ezu5L" value="javax.xml.xpath.XPath" />
+            </node>
+            <node concept="EzahS" id="3MC2nPttNdD" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="3MC2nPttNfL" role="Ezags">
+              <property role="EyIa8" value="expression" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="EzahA" id="3MC2nPttNfB" role="EzuqZ">
+        <node concept="Ezahw" id="3MC2nPttNfC" role="Ezuqe">
+          <node concept="Ezahz" id="3MC2nPttNfD" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPttNfE" role="Ezagr">
+              <property role="Ezu5L" value="HttpServletRequest" />
+            </node>
+            <node concept="EzahS" id="3MC2nPttNfF" role="Ezagp">
+              <property role="Eyxlm" value="get" />
+              <property role="Ezu8L" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EzahB" id="3MC2nPttY0r" role="EwfFI">
+      <property role="TrG5h" value="LDAPInjection" />
+      <node concept="Ezahx" id="3MC2nPttY0s" role="EzuqK">
+        <property role="1Sx16I" value="ldapi" />
+        <node concept="Ezahw" id="3MC2nPttY0t" role="Ezat5">
+          <node concept="Ezahz" id="3MC2nPttY0u" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPttY0v" role="Ezagr">
+              <property role="Ezu5L" value="javax.naming.directory.DirContext" />
+            </node>
+            <node concept="EzahS" id="3MC2nPttY0w" role="Ezagp">
+              <property role="Ezu8O" value="true" />
+            </node>
+            <node concept="EzahT" id="3MC2nPttY30" role="Ezags">
+              <property role="Ezu8O" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="EzahA" id="3MC2nPttY2Q" role="EzuqZ">
+        <node concept="Ezahw" id="3MC2nPttY2R" role="Ezuqe">
+          <node concept="Ezahz" id="3MC2nPttY2S" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPttY2T" role="Ezagr">
+              <property role="Ezu5L" value="HttpServletRequest" />
+              <property role="Ezu8N" value="true" />
+            </node>
+            <node concept="EzahS" id="3MC2nPttY2U" role="Ezagp">
+              <property role="Eyxlm" value="get" />
+              <property role="Ezu8L" value="true" />
+            </node>
+          </node>
+          <node concept="Ezahz" id="3MC2nPtulyK" role="EzaiY">
+            <node concept="EzahV" id="3MC2nPtulyL" role="Ezagr">
+              <property role="Ezu5L" value="java.util.Enumeration" />
+              <property role="Ezu8L" value="true" />
+            </node>
+            <node concept="EzahS" id="3MC2nPtulyM" role="Ezagp">
+              <property role="Eyxlm" value="nextElement" />
             </node>
           </node>
         </node>
