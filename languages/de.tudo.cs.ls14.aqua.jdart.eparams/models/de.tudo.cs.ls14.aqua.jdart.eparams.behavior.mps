@@ -901,7 +901,7 @@
             <node concept="2OqwBi" id="3oHsQhDchi5" role="3uHU7w">
               <node concept="13iPFW" id="3oHsQhDch9y" role="2Oq$k0" />
               <node concept="2qgKlT" id="3oHsQhDchr3" role="2OqNvi">
-                <ref role="37wK5l" node="3oHsQhDcfhJ" resolve="getMethodRepresentation" />
+                <ref role="37wK5l" node="3oHsQhDcfhJ" resolve="getAttributeRepresentation" />
               </node>
             </node>
             <node concept="2OqwBi" id="3oHsQhDc2Xq" role="3uHU7B">
@@ -1042,13 +1042,13 @@
       </node>
     </node>
     <node concept="13i0hz" id="3oHsQhDcfhJ" role="13h7CS">
-      <property role="TrG5h" value="getMethodRepresentation" />
+      <property role="TrG5h" value="getAttributeRepresentation" />
       <node concept="3Tm1VV" id="3oHsQhDcfhK" role="1B3o_S" />
       <node concept="17QB3L" id="3oHsQhDcfC0" role="3clF45" />
       <node concept="3clFbS" id="3oHsQhDcfhM" role="3clF47">
         <node concept="3cpWs8" id="3oHsQhDcfC$" role="3cqZAp">
           <node concept="3cpWsn" id="3oHsQhDcfCB" role="3cpWs9">
-            <property role="TrG5h" value="methodString" />
+            <property role="TrG5h" value="attributeString" />
             <node concept="17QB3L" id="3oHsQhDcfCz" role="1tU5fm" />
             <node concept="Xl_RD" id="3oHsQhDcfDJ" role="33vP2m">
               <property role="Xl_RC" value="" />
@@ -1065,13 +1065,13 @@
                   </node>
                   <node concept="2OqwBi" id="3oHsQhDcgpg" role="3uHU7w">
                     <node concept="3TrcHB" id="3oHsQhDcg_Q" role="2OqNvi">
-                      <ref role="3TsBF5" to="naov:59rwM0eLH_X" resolve="method" />
+                      <ref role="3TsBF5" to="naov:59rwM0eLH_X" resolve="attribute" />
                     </node>
                     <node concept="13iPFW" id="3oHsQhDcF6Z" role="2Oq$k0" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="3oHsQhDcfZ3" role="37vLTJ">
-                  <ref role="3cqZAo" node="3oHsQhDcfCB" resolve="methodString" />
+                  <ref role="3cqZAo" node="3oHsQhDcfCB" resolve="attributeString" />
                 </node>
               </node>
             </node>
@@ -1079,13 +1079,13 @@
           <node concept="2OqwBi" id="3oHsQhDcfOm" role="3clFbw">
             <node concept="13iPFW" id="3oHsQhDcfEE" role="2Oq$k0" />
             <node concept="3TrcHB" id="3oHsQhDcfWF" role="2OqNvi">
-              <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useMethod" />
+              <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useAttribute" />
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="3oHsQhDcgF5" role="3cqZAp">
           <node concept="37vLTw" id="3oHsQhDcgG1" role="3cqZAk">
-            <ref role="3cqZAo" node="3oHsQhDcfCB" resolve="methodString" />
+            <ref role="3cqZAo" node="3oHsQhDcfCB" resolve="attributeString" />
           </node>
         </node>
       </node>

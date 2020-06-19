@@ -67,7 +67,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="59rwM0eLI6t">
-    <property role="TrG5h" value="ToggleUseMethod" />
+    <property role="TrG5h" value="ToggleUseAttribute" />
     <ref role="2ZfgGC" to="naov:59rwM0eLH_W" resolve="VariableMethodDeclaration" />
     <node concept="2S6ZIM" id="59rwM0eLI6u" role="2ZfVej">
       <node concept="3clFbS" id="59rwM0eLI6v" role="2VODD2">
@@ -75,13 +75,13 @@
           <node concept="2OqwBi" id="59rwM0eLItu" role="3clFbw">
             <node concept="2Sf5sV" id="59rwM0eLIgc" role="2Oq$k0" />
             <node concept="3TrcHB" id="59rwM0eLI_4" role="2OqNvi">
-              <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useMethod" />
+              <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useAttribute" />
             </node>
           </node>
           <node concept="3clFbS" id="59rwM0eLIbw" role="3clFbx">
             <node concept="3cpWs6" id="59rwM0eLITv" role="3cqZAp">
               <node concept="Xl_RD" id="59rwM0eLIBo" role="3cqZAk">
-                <property role="Xl_RC" value="Remove usage of method" />
+                <property role="Xl_RC" value="Remove usage of attribute" />
               </node>
             </node>
           </node>
@@ -89,7 +89,7 @@
             <node concept="3clFbS" id="59rwM0eLIKJ" role="9aQI4">
               <node concept="3cpWs6" id="59rwM0eLIUX" role="3cqZAp">
                 <node concept="Xl_RD" id="59rwM0eLILi" role="3cqZAk">
-                  <property role="Xl_RC" value="Use additional method" />
+                  <property role="Xl_RC" value="Use additional attribute" />
                 </node>
               </node>
             </node>
@@ -104,7 +104,7 @@
             <node concept="2OqwBi" id="59rwM0eLKis" role="2Oq$k0">
               <node concept="2Sf5sV" id="59rwM0eLKb9" role="2Oq$k0" />
               <node concept="3TrcHB" id="59rwM0eLKpY" role="2OqNvi">
-                <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useMethod" />
+                <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useAttribute" />
               </node>
             </node>
             <node concept="tyxLq" id="59rwM0eLKUa" role="2OqNvi">
@@ -112,7 +112,7 @@
                 <node concept="2OqwBi" id="59rwM0eLKZ7" role="3fr31v">
                   <node concept="2Sf5sV" id="59rwM0eLKWS" role="2Oq$k0" />
                   <node concept="3TrcHB" id="59rwM0eLL0B" role="2OqNvi">
-                    <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useMethod" />
+                    <ref role="3TsBF5" to="naov:59rwM0eLHAs" resolve="useAttribute" />
                   </node>
                 </node>
               </node>

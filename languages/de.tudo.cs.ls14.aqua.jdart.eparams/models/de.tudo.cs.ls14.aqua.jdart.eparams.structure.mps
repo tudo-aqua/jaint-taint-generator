@@ -150,12 +150,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="59rwM0eLH_X" role="1TKVEl">
       <property role="IQ2nx" value="5934481107700865405" />
-      <property role="TrG5h" value="method" />
+      <property role="TrG5h" value="attribute" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="59rwM0eLHAs" role="1TKVEl">
       <property role="IQ2nx" value="5934481107700865436" />
-      <property role="TrG5h" value="useMethod" />
+      <property role="TrG5h" value="useAttribute" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="59rwM0eLH_Z" role="1TKVEi">

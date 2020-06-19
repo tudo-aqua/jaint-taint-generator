@@ -26,11 +26,13 @@
         <child id="7865646165569489134" name="left" index="mxEHH" />
         <child id="7865646165569489136" name="right" index="mxEHN" />
       </concept>
+      <concept id="7865646165569489132" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.AndExpression" flags="ng" index="mxEHJ" />
       <concept id="5934481107700865404" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.VariableMethodDeclaration" flags="ng" index="1sBlDs">
-        <property id="5934481107700865405" name="method" index="1sBlDt" />
-        <property id="5934481107700865436" name="useMethod" index="1sBlEW" />
+        <property id="5934481107700865405" name="attribute" index="1sBlDt" />
+        <property id="5934481107700865436" name="useAttribute" index="1sBlEW" />
         <child id="5934481107700865407" name="variable" index="1sBlDv" />
       </concept>
+      <concept id="5934481107700403357" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.HasNotValueComparator" flags="ng" index="1sT4YX" />
       <concept id="5934481107700403358" name="de.tudo.cs.ls14.aqua.jdart.eparams.structure.ValueComparator" flags="ng" index="1sT4YY">
         <child id="7865646165569498758" name="value" index="mxCO5" />
         <child id="7865646165569498757" name="variableMethod" index="mxCO6" />
@@ -344,7 +346,7 @@
         <node concept="Ezahw" id="4XnFvGpckIM" role="Ezat5">
           <node concept="Ezahz" id="4XnFvGpckIN" role="EzaiY">
             <node concept="EzahV" id="4XnFvGpckIO" role="Ezagr">
-              <property role="Ezu5L" value="javax.servlet.http.Response" />
+              <property role="Ezu5L" value="javax.servlet.http.HttpServletResponse" />
             </node>
             <node concept="EzahS" id="4XnFvGpckIP" role="Ezagp">
               <property role="Eyxlm" value="addCookie" />
@@ -353,7 +355,7 @@
               <node concept="mxCO7" id="4XnFvGpckK1" role="1qOp_0">
                 <node concept="1sBlDs" id="4XnFvGpckK2" role="mxCO6">
                   <property role="1sBlEW" value="true" />
-                  <property role="1sBlDt" value="getSecure" />
+                  <property role="1sBlDt" value="secure" />
                   <node concept="3cpWsn" id="4XnFvGpckK3" role="1sBlDv">
                     <property role="TrG5h" value="c" />
                     <node concept="mxCO1" id="4XnFvGpcnR3" role="1tU5fm">
@@ -549,15 +551,28 @@
               <property role="Eyxlm" value="getInstance" />
             </node>
             <node concept="1qPzUY" id="3MC2nPtzE1C" role="Ezags">
-              <node concept="mxCO7" id="3MC2nPtzE1E" role="1qOp_0">
-                <node concept="1sBlDs" id="3MC2nPtzE1F" role="mxCO6">
-                  <node concept="3cpWsn" id="3MC2nPtzE1G" role="1sBlDv">
-                    <property role="TrG5h" value="transformation" />
-                    <node concept="17QB3L" id="3MC2nPtzE1S" role="1tU5fm" />
+              <node concept="mxEHJ" id="4e1H5C9q2Nn" role="1qOp_0">
+                <node concept="mxCO7" id="3MC2nPtzE1E" role="mxEHH">
+                  <node concept="1sBlDs" id="3MC2nPtzE1F" role="mxCO6">
+                    <node concept="3cpWsn" id="3MC2nPtzE1G" role="1sBlDv">
+                      <property role="TrG5h" value="transformation" />
+                      <node concept="17QB3L" id="4e1H5C9hSuw" role="1tU5fm" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3MC2nPtzE1Z" role="mxCO5">
+                    <property role="Xl_RC" value="DES" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="3MC2nPtzE1Z" role="mxCO5">
-                  <property role="Xl_RC" value="DES" />
+                <node concept="1sT4YX" id="4e1H5C9q2NC" role="mxEHN">
+                  <node concept="1sBlDs" id="4e1H5C9q2ND" role="mxCO6">
+                    <node concept="3cpWsn" id="4e1H5C9q2NE" role="1sBlDv">
+                      <property role="TrG5h" value="transformation" />
+                      <node concept="17QB3L" id="4e1H5C9q2NQ" role="1tU5fm" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4e1H5C9q2O3" role="mxCO5">
+                    <property role="Xl_RC" value="DESEDE" />
+                  </node>
                 </node>
               </node>
             </node>
