@@ -883,6 +883,37 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="3CBmkzhhg1R" role="13h7CS">
+      <property role="TrG5h" value="needsRecursiveTaintPropagation" />
+      <node concept="3Tm1VV" id="3CBmkzhhg1S" role="1B3o_S" />
+      <node concept="10P_77" id="3CBmkzhhg6L" role="3clF45" />
+      <node concept="3clFbS" id="3CBmkzhhg1U" role="3clF47">
+        <node concept="3cpWs6" id="3CBmkzhi3o1" role="3cqZAp">
+          <node concept="1Wc70l" id="3CBmkzhi4kN" role="3cqZAk">
+            <node concept="2OqwBi" id="3CBmkzhi4Rs" role="3uHU7w">
+              <node concept="2OqwBi" id="3CBmkzhi4vH" role="2Oq$k0">
+                <node concept="13iPFW" id="3CBmkzhi4lI" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3CBmkzhi4HR" role="2OqNvi">
+                  <ref role="3Tt5mk" to="y4i8:1uupkCX4SfP" resolve="source" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3CBmkzhi50t" role="2OqNvi">
+                <ref role="3TsBF5" to="y4i8:3CBmkzhhTlf" resolve="propagateTaint" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3CBmkzhi3Q2" role="3uHU7B">
+              <node concept="2OqwBi" id="3CBmkzhi3ye" role="2Oq$k0">
+                <node concept="13iPFW" id="3CBmkzhi3ou" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3CBmkzhi3Ez" role="2OqNvi">
+                  <ref role="3Tt5mk" to="y4i8:1uupkCX4SfP" resolve="source" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="3CBmkzhi3Z0" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="2b_ZBHipnAr">
     <ref role="13h7C2" to="y4i8:1X9JY0PMkkd" resolve="TaintGen" />
