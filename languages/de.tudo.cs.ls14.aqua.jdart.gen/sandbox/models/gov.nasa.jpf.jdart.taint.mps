@@ -596,6 +596,17 @@
               <property role="EyIa8" value="command" />
             </node>
           </node>
+          <node concept="Ezahz" id="6FULRw4$18A" role="EzaiY">
+            <node concept="EzahV" id="6FULRw4$18B" role="Ezagr">
+              <property role="Ezu5L" value="java.lang.ProcessBuilder" />
+            </node>
+            <node concept="EzahS" id="6FULRw4$18C" role="Ezagp">
+              <property role="EySFM" value="true" />
+            </node>
+            <node concept="EzahT" id="6FULRw4$18O" role="Ezags">
+              <property role="EyIa8" value="command" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="EzahA" id="3CBmkzhl9su" role="EzuqZ">
@@ -604,6 +615,7 @@
           <node concept="Ezahz" id="3CBmkzhl9sw" role="EzaiY">
             <node concept="EzahV" id="3CBmkzhl9sx" role="Ezagr">
               <property role="Ezu5L" value="HttpServletRequest" />
+              <property role="Ezu8N" value="true" />
             </node>
             <node concept="EzahS" id="3CBmkzhl9sy" role="Ezagp">
               <property role="Eyxlm" value="get" />

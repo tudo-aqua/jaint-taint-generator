@@ -643,6 +643,16 @@
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6FULRw4_V1y" role="3bR37C">
+            <node concept="3bR9La" id="6FULRw4_V1z" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="6FULRw4_V1$" role="3bR37C">
+            <node concept="3bR9La" id="6FULRw4_V1_" role="1SiIV1">
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
         </node>
         <node concept="1E0d5M" id="6JfGCaHz2aZ" role="1E1XAP">
           <ref role="1E0d5P" node="6JfGCaHz29O" resolve="de.tudo.cs.ls14.aqua.jdart.gen.runtime" />

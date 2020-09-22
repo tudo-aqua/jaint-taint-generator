@@ -8,6 +8,7 @@
       <sourceRoot location="jconstraints-0.9.2-SNAPSHOT.jar" />
       <sourceRoot location="jpf-jdart.jar" />
       <sourceRoot location="jpf.jar" />
+      <sourceRoot location="jpf-jdart-classes.jar" />
     </modelRoot>
   </models>
   <facets>
