@@ -255,7 +255,9 @@
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
+      <concept id="7830515785164762753" name="jetbrains.mps.lang.generator.structure.MappingConfiguration_Condition" flags="in" index="avzCv" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <child id="7830515785164764091" name="condition" index="avys_" />
         <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
@@ -525,6 +527,13 @@
       <property role="TrG5h" value="class" />
       <ref role="2rZz_L" to="tpee:6LFqxSRBTg8" resolve="MethodDeclaration" />
       <ref role="2rTdP9" to="y4i8:1uupkCX4G4D" resolve="Signature" />
+    </node>
+    <node concept="avzCv" id="370jaaXQvEY" role="avys_">
+      <node concept="3clFbS" id="370jaaXQvEZ" role="2VODD2">
+        <node concept="3clFbF" id="370jaaXQvKn" role="3cqZAp">
+          <node concept="3clFbT" id="370jaaXQvKm" role="3clFbG" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="1k6KDPnJ0fi">
